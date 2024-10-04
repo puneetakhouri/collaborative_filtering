@@ -1,0 +1,5 @@
+.DS_Store
+**/venv/
+book_classification/share
+book_classification/bin
+book_classification/lib

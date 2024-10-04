@@ -1,0 +1,84 @@
+import pandas as pd
+import numpy as np
+from scipy.sparse import csr_matrix
+from implicit.als import AlternatingLeastSquares
+from implicit.nearest_neighbours import bm25_weight
+
+def load_data(ratings_file):
+    return pd.read_csv(ratings_file)
+
+def create_user_item_matrix(df):
+
+    # df['rating'].fillna(0, inplace=True)
+    # Convert userId to string (or ensure it's consistently treated as an integer)
+    df['userId'] = df['userId'].astype(str)
+    # Create a user-item matrix
+    user_item = df.groupby(['userId', 'productId'])['rating'].mean().unstack()
+    
+    # Create a mapping of user IDs to matrix indices
+    user_to_index = {user: i for i, user in enumerate(user_item.index)}
+    item_to_index = {item: i for i, item in enumerate(user_item.columns)}
+    
+    # Create a sparse matrix
+    row = df['userId'].map(user_to_index)
+    col = df['productId'].map(item_to_index)
+    data = df['rating']
+    sparse_matrix = csr_matrix((data, (row, col)), shape=user_item.shape)
+    
+    return sparse_matrix, user_to_index, item_to_index
+
+def train_model(sparse_matrix, factors=50, iterations=15):
+    # Weight the matrix
+    weighted_matrix = bm25_weight(sparse_matrix, K1=100, B=0.8)
+    
+    # Train the model
+    model = AlternatingLeastSquares(factors=factors, iterations=iterations)
+    model.fit(weighted_matrix)
+    
+    return model
+
+def get_recommendations(model, sparse_matrix, user_index, user_to_index, item_to_index, n=10):
+    # Get user's index
+    user_id = list(user_to_index.keys())[list(user_to_index.values()).index(user_index)]
+    
+    # Get recommendations
+    recommended = model.recommend(user_index, sparse_matrix[user_index], N=n, filter_already_liked_items=True)
+    print(f"recommended - {recommended}")
+    # Convert back to product IDs
+    index_to_item = {v: k for k, v in item_to_index.items()}
+    print(f"length of index to item- {len(index_to_item)}")
+    recommendations = [(index_to_item[int(item)], score) for item, score, *_ in recommended]
+
+    return recommendations
+
+def run_recommendation_engine(ratings_file, user_id, n=10):
+    # Load data
+    df = load_data(ratings_file)
+    
+    df['userId'] = df['userId'].astype(str)
+    # Create user-item matrix
+    sparse_matrix, user_to_index, item_to_index = create_user_item_matrix(df)
+    
+    # Train model
+    model = train_model(sparse_matrix)
+    
+    # Get recommendations
+    if user_id in user_to_index:
+        user_index = user_to_index[user_id]
+        recommendations = get_recommendations(model, sparse_matrix, user_index, user_to_index, item_to_index, n)
+        return recommendations
+    else:
+        print(f"User {user_id} not found in the dataset.")
+        return []
+
+# Example usage
+if __name__ == "__main__":
+    ratings_file = "../data/user_ratings.csv"
+    user_id = "100020"  # Replace with an actual user ID from your dataset
+    recommendations = run_recommendation_engine(ratings_file, user_id)
+    if recommendations:
+        print(f"Top 10 recommendations for user {user_id}:")
+        for i, (product, score) in enumerate(recommendations, 1):
+            print(f"{i}. Product {product} (Score: {score:.4f})")
+    else:
+        print("No recommendations could be generated.")
