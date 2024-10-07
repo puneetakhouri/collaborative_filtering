@@ -56,7 +56,7 @@ def run_recommendation_engine(ratings_file, user_id):
 
 # Example usage
 if __name__ == "__main__":
-    ratings_file = "../data/user_ratings_simplified.csv"
+    ratings_file = "../../data/user_ratings_simplified.csv"
     user_id = "125"
     recommendations = run_recommendation_engine(ratings_file, user_id)
     if not recommendations.empty:

@@ -1,0 +1,21 @@
+id,name,category,brand,price,screen_size,memory,processor,os,camera,battery,weight,release_year
+1,iPhone 12,Smartphone,Apple,799,6.1,64,A14,iOS,12,2815,164,2020
+2,Samsung Galaxy S21,Smartphone,Samsung,799,6.2,128,Exynos 2100,Android,64,4000,169,2021
+3,MacBook Pro,Laptop,Apple,1299,13.3,256,M1,macOS,,,1400,2020
+4,Dell XPS 13,Laptop,Dell,999,13.4,512,Intel i7,Windows,,,1200,2021
+5,Sony Bravia TV,TV,Sony,1099,55,,,,,,15000,2021
+6,iPad Air,Tablet,Apple,599,10.9,64,A14,iPadOS,12,,458,2020
+7,Microsoft Surface Laptop,Laptop,Microsoft,999,13.5,256,Intel i5,Windows,,,1288,2021
+8,Google Pixel 5,Smartphone,Google,699,6.0,128,Snapdragon 765G,Android,12.2,4080,151,2020
+9,LG OLED TV,TV,LG,1499,65,,,,,,22200,2021
+10,Asus ROG Gaming Laptop,Laptop,Asus,1499,15.6,1024,AMD Ryzen 9,Windows,,,2300,2021
+11,OnePlus 9 Pro,Smartphone,OnePlus,969,6.7,256,Snapdragon 888,Android,48,4500,197,2021
+12,Lenovo ThinkPad X1,Laptop,Lenovo,1399,14,512,Intel i7,Windows,,,1133,2021
+13,Amazon Echo Dot,Smart Speaker,Amazon,49,,,,Alexa,,,300,2020
+14,Bose QuietComfort Earbuds,Earbuds,Bose,279,,,,,,,,2020
+15,Canon EOS R5,Camera,Canon,3899,,,,,,320,738,2020
+16,Nintendo Switch,Gaming Console,Nintendo,299,6.2,,NVIDIA Custom Tegra,Switch OS,,,398,2017
+17,Fitbit Versa 3,Smartwatch,Fitbit,229,1.58,,,,,,30,2020
+18,Roomba i7+,Robot Vacuum,iRobot,799,,,,,,,,2018
+19,DJI Mavic Air 2,Drone,DJI,799,,,,,,3500,570,2020
+20,Kindle Paperwhite,E-reader,Amazon,129,6,8,,,,,182,2018
