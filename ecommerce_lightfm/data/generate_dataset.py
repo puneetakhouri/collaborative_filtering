@@ -10,12 +10,14 @@ def generate_users(n_users=1000):
     users = []
     cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
     for i in range(n_users):
-        users.append({
-            'user_id': f'U{i+1:04d}',
-            'city': np.random.choice(cities),
-            'age': np.random.randint(18, 70),
-            'gender': np.random.choice(['M', 'F'])
-        })
+        user_cities = np.random.choice(cities, size=np.random.randint(1, 3), replace=False)
+        for city in user_cities:
+            users.append({
+                'user_id': f'U{i+1:04d}',
+                'city': city,
+                'age': np.random.randint(18, 70),
+                'gender': np.random.choice(['M', 'F'])
+            })
     return pd.DataFrame(users)
 
 # Generate Electronics Data
@@ -166,36 +168,50 @@ def generate_orders(users, products, n_orders=5000):
     return pd.DataFrame(orders)
 
 # Generate Inventory Data (modified to use new product IDs)
-def generate_inventory(products):
-    warehouses = ['WH1', 'WH2', 'WH3']
+def generate_inventory(products, warehouse_areas):
     inventory = []
     for _, product in products.iterrows():
-        for warehouse in warehouses:
-            inventory.append({
-                'product_id': product['product_id'],
-                'warehouse': warehouse,
-                'stock': np.random.randint(0, 100)
-            })
+        # Get all warehouses
+        warehouses = warehouse_areas['warehouse'].unique()
+        # Randomly choose 1-3 warehouses for this product
+        product_warehouses = np.random.choice(warehouses, size=np.random.randint(1, 4), replace=False)
+        for warehouse in product_warehouses:
+            # Get cities served by this warehouse
+            served_cities = warehouse_areas[warehouse_areas['warehouse'] == warehouse]['city'].unique()
+            # Randomly choose 1-2 cities for this product-warehouse combination
+            product_cities = np.random.choice(served_cities, size=np.random.randint(1, 2), replace=False)
+            for city in product_cities:
+                inventory.append({
+                    'product_id': product['product_id'],
+                    'warehouse': warehouse,
+                    'city': city,
+                    'stock': np.random.randint(0, 100)
+                })
     return pd.DataFrame(inventory)
 
 # Generate Warehouse Service Areas (unchanged)
 def generate_warehouse_areas():
-    return pd.DataFrame([
-        {'warehouse': 'WH1', 'city': 'New York'},
-        {'warehouse': 'WH1', 'city': 'Chicago'},
-        {'warehouse': 'WH2', 'city': 'Los Angeles'},
-        {'warehouse': 'WH2', 'city': 'Phoenix'},
-        {'warehouse': 'WH3', 'city': 'Houston'},
-        {'warehouse': 'WH3', 'city': 'Chicago'}
-    ])
+    cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+    warehouses = ['WH1', 'WH2', 'WH3', 'WH4']
+    warehouse_areas = []
+    
+    for warehouse in warehouses:
+        served_cities = np.random.choice(cities, size=np.random.randint(1, 4), replace=False)
+        for city in served_cities:
+            warehouse_areas.append({
+                'warehouse': warehouse,
+                'city': city
+            })
+    
+    return pd.DataFrame(warehouse_areas)
 
 # Main function to generate the dataset
 def generate_dataset():
     users_df = generate_users()
     products_df = generate_products()
-    orders_df = generate_orders(users_df, products_df)
-    inventory_df = generate_inventory(products_df)
     warehouse_areas_df = generate_warehouse_areas()
+    orders_df = generate_orders(users_df, products_df)
+    inventory_df = generate_inventory(products_df, warehouse_areas_df)
 
     # Save to CSV files
     users_df.to_csv('users.csv', index=False)
@@ -204,19 +220,15 @@ def generate_dataset():
     inventory_df.to_csv('inventory.csv', index=False)
     warehouse_areas_df.to_csv('warehouse_areas.csv', index=False)
 
-    print("Dataset files have been created: users.csv, products.csv, orders.csv, inventory.csv, warehouse_areas.csv")
+    print("Dataset files have been created: users.csv, products.df, orders.csv, inventory.csv, warehouse_areas.csv")
 
     # Display sample data
     print("\nUsers Sample:")
-    print(users_df.head())
-    print("\nProducts Sample:")
-    print(products_df.head())
-    print("\nOrders Sample:")
-    print(orders_df.head())
+    print(users_df.head(10))
+    print("\nWarehouse Service Areas Sample:")
+    print(warehouse_areas_df.head(10))
     print("\nInventory Sample:")
-    print(inventory_df.head())
-    print("\nWarehouse Service Areas:")
-    print(warehouse_areas_df)
+    print(inventory_df.head(10))
 
 if __name__ == "__main__":
     generate_dataset()

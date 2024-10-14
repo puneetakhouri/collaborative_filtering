@@ -1,1001 +1,1507 @@
 user_id,city,age,gender
-U0001,Houston,46,M
-U0002,Chicago,25,M
-U0003,Phoenix,56,F
-U0004,Chicago,40,M
-U0005,Chicago,41,M
-U0006,Houston,57,F
-U0007,Chicago,39,M
-U0008,Los Angeles,41,F
-U0009,Los Angeles,38,M
-U0010,Houston,39,M
-U0011,Houston,42,M
-U0012,Chicago,59,F
-U0013,Houston,33,M
-U0014,Chicago,61,M
-U0015,Houston,20,M
-U0016,Chicago,24,M
-U0017,New York,56,F
-U0018,Houston,42,F
-U0019,Los Angeles,26,F
-U0020,Phoenix,19,F
-U0021,Houston,64,F
-U0022,Houston,25,M
-U0023,Chicago,31,M
-U0024,Houston,67,F
-U0025,Houston,19,F
-U0026,Los Angeles,21,F
-U0027,Phoenix,35,F
-U0028,Houston,51,F
-U0029,Houston,31,M
-U0030,Houston,57,M
-U0031,Phoenix,35,M
-U0032,Phoenix,41,F
-U0033,New York,62,M
-U0034,Phoenix,32,M
-U0035,New York,42,M
-U0036,New York,41,M
-U0037,Houston,25,F
-U0038,Chicago,68,M
-U0039,Chicago,52,M
-U0040,Chicago,22,F
-U0041,Los Angeles,58,F
-U0042,New York,25,F
-U0043,Los Angeles,50,F
-U0044,Phoenix,52,F
-U0045,Chicago,52,M
-U0046,Chicago,54,M
-U0047,Chicago,18,M
-U0048,Los Angeles,31,M
-U0049,Chicago,26,M
-U0050,Los Angeles,59,F
-U0051,Phoenix,68,M
-U0052,New York,69,M
-U0053,Houston,47,M
-U0054,Phoenix,32,M
-U0055,Phoenix,53,M
-U0056,Chicago,68,F
-U0057,Houston,19,F
-U0058,Phoenix,23,F
-U0059,Houston,61,F
-U0060,Houston,47,F
-U0061,Chicago,45,M
-U0062,New York,18,M
-U0063,Chicago,69,M
-U0064,New York,20,M
-U0065,Chicago,26,F
-U0066,Phoenix,50,M
-U0067,Los Angeles,61,F
-U0068,Chicago,49,F
-U0069,New York,69,M
-U0070,New York,69,F
-U0071,Los Angeles,20,M
-U0072,Phoenix,66,F
-U0073,New York,66,F
-U0074,Los Angeles,45,F
-U0075,Phoenix,49,M
-U0076,New York,36,F
-U0077,Los Angeles,61,F
-U0078,Houston,28,F
-U0079,Chicago,34,M
-U0080,Phoenix,69,F
-U0081,Chicago,65,F
-U0082,New York,26,F
-U0083,Chicago,23,F
-U0084,Phoenix,20,F
-U0085,Houston,53,M
-U0086,Los Angeles,20,M
-U0087,Chicago,37,F
-U0088,Houston,58,M
-U0089,Los Angeles,57,M
-U0090,Chicago,45,M
-U0091,New York,67,M
-U0092,Los Angeles,52,M
-U0093,Houston,33,F
-U0094,New York,69,F
-U0095,New York,19,M
-U0096,Houston,22,M
-U0097,Chicago,26,M
-U0098,Chicago,36,F
-U0099,Chicago,37,F
-U0100,New York,41,F
-U0101,Chicago,66,F
-U0102,Houston,55,F
-U0103,Houston,52,F
-U0104,New York,52,M
-U0105,Phoenix,35,F
-U0106,Los Angeles,19,F
-U0107,Chicago,33,M
-U0108,New York,53,M
-U0109,Houston,50,F
-U0110,Phoenix,65,F
-U0111,Chicago,34,F
-U0112,New York,65,F
-U0113,Chicago,68,F
-U0114,Phoenix,68,F
-U0115,Chicago,44,F
-U0116,Phoenix,47,M
-U0117,Houston,64,F
-U0118,New York,22,F
-U0119,Phoenix,65,M
-U0120,Houston,52,F
-U0121,New York,34,F
-U0122,Houston,47,M
-U0123,Phoenix,23,M
-U0124,Houston,58,M
-U0125,Phoenix,66,F
-U0126,Phoenix,48,M
-U0127,Houston,50,F
-U0128,Phoenix,38,F
-U0129,New York,20,F
-U0130,Los Angeles,42,F
-U0131,Los Angeles,20,F
-U0132,Los Angeles,49,M
-U0133,Los Angeles,44,F
-U0134,Los Angeles,43,M
-U0135,New York,26,M
-U0136,Phoenix,59,M
-U0137,Los Angeles,52,F
-U0138,New York,41,M
-U0139,Houston,24,M
-U0140,Houston,62,F
-U0141,New York,25,F
-U0142,Houston,68,M
-U0143,Houston,51,F
-U0144,Chicago,42,F
-U0145,Phoenix,39,F
-U0146,Los Angeles,39,M
-U0147,Houston,59,F
-U0148,Chicago,54,M
-U0149,Phoenix,61,F
-U0150,Phoenix,56,F
-U0151,Phoenix,49,F
-U0152,Chicago,57,F
-U0153,Phoenix,67,F
-U0154,Los Angeles,47,M
-U0155,New York,36,F
-U0156,Los Angeles,43,M
-U0157,Los Angeles,40,M
-U0158,New York,29,M
-U0159,New York,18,M
-U0160,Los Angeles,49,F
-U0161,New York,57,M
-U0162,Phoenix,18,F
-U0163,Phoenix,56,F
-U0164,Phoenix,39,M
-U0165,Chicago,29,F
-U0166,Chicago,54,F
-U0167,New York,46,F
-U0168,Houston,22,M
-U0169,New York,47,F
-U0170,Houston,22,F
-U0171,Los Angeles,43,F
-U0172,Phoenix,56,F
-U0173,New York,47,M
-U0174,Los Angeles,27,F
-U0175,Phoenix,53,F
-U0176,Houston,48,F
-U0177,Los Angeles,36,F
-U0178,New York,22,M
-U0179,Houston,33,F
-U0180,Los Angeles,66,F
-U0181,Chicago,37,F
-U0182,Houston,67,M
-U0183,Houston,50,M
-U0184,Phoenix,68,M
-U0185,Phoenix,29,M
-U0186,New York,50,F
-U0187,Los Angeles,60,F
-U0188,Phoenix,30,F
-U0189,Los Angeles,68,F
-U0190,Chicago,40,M
-U0191,Los Angeles,25,M
-U0192,Los Angeles,27,F
-U0193,Los Angeles,68,M
-U0194,Houston,67,M
-U0195,Chicago,46,F
-U0196,Houston,42,M
-U0197,Phoenix,53,F
-U0198,Phoenix,26,F
-U0199,Chicago,66,M
-U0200,Houston,35,M
-U0201,Phoenix,29,M
-U0202,Phoenix,40,M
-U0203,Chicago,58,F
-U0204,New York,66,F
-U0205,Houston,65,M
-U0206,Phoenix,36,M
-U0207,Houston,29,M
-U0208,New York,36,F
-U0209,New York,24,F
-U0210,Houston,36,F
-U0211,Phoenix,22,M
-U0212,Houston,42,F
-U0213,Chicago,38,F
-U0214,Phoenix,40,F
-U0215,New York,56,M
-U0216,Phoenix,59,F
-U0217,Los Angeles,22,M
-U0218,Phoenix,60,M
-U0219,Los Angeles,64,F
-U0220,New York,27,F
-U0221,Houston,34,M
-U0222,Phoenix,57,F
-U0223,New York,67,M
-U0224,Los Angeles,19,M
-U0225,Phoenix,54,F
-U0226,Chicago,25,F
-U0227,Phoenix,18,F
-U0228,Houston,34,M
-U0229,New York,62,F
-U0230,Houston,23,F
-U0231,Chicago,61,F
-U0232,Chicago,27,F
-U0233,Chicago,56,F
-U0234,Chicago,62,M
-U0235,Los Angeles,45,F
-U0236,Los Angeles,37,F
-U0237,Phoenix,58,M
-U0238,New York,20,M
-U0239,Houston,66,M
-U0240,New York,55,M
-U0241,Los Angeles,61,M
-U0242,Phoenix,64,M
-U0243,Phoenix,28,F
-U0244,Phoenix,53,M
-U0245,Chicago,37,M
-U0246,Los Angeles,64,M
-U0247,New York,31,M
-U0248,New York,20,F
-U0249,New York,28,F
-U0250,Los Angeles,49,F
-U0251,Houston,41,F
-U0252,Phoenix,25,F
-U0253,Houston,53,F
-U0254,Los Angeles,67,F
-U0255,Houston,54,M
-U0256,Houston,44,F
-U0257,New York,26,M
-U0258,Phoenix,37,M
-U0259,Houston,65,M
-U0260,Phoenix,63,M
-U0261,Phoenix,23,F
-U0262,Chicago,22,M
-U0263,New York,19,F
-U0264,Los Angeles,62,M
-U0265,New York,18,F
-U0266,New York,28,M
-U0267,Los Angeles,42,F
-U0268,Chicago,44,M
-U0269,Phoenix,50,F
-U0270,New York,52,M
-U0271,New York,38,F
-U0272,Houston,34,M
-U0273,Phoenix,55,M
-U0274,Phoenix,40,M
-U0275,Phoenix,54,F
-U0276,Los Angeles,36,M
-U0277,Phoenix,31,M
-U0278,New York,68,M
-U0279,Phoenix,21,F
-U0280,New York,66,F
-U0281,Los Angeles,45,M
-U0282,Los Angeles,51,F
-U0283,Chicago,67,F
-U0284,New York,61,M
-U0285,Chicago,34,F
-U0286,Phoenix,38,F
-U0287,Los Angeles,28,M
-U0288,Houston,51,F
-U0289,Los Angeles,51,F
-U0290,Chicago,68,M
-U0291,Los Angeles,69,M
-U0292,New York,41,M
-U0293,Houston,47,M
-U0294,Los Angeles,68,M
-U0295,Phoenix,46,F
-U0296,Los Angeles,34,F
-U0297,New York,37,F
-U0298,Phoenix,51,F
-U0299,Phoenix,19,M
-U0300,Chicago,60,F
-U0301,Chicago,68,M
-U0302,New York,40,M
-U0303,Chicago,33,F
-U0304,Houston,57,F
-U0305,New York,20,F
-U0306,Chicago,44,M
-U0307,Los Angeles,68,M
-U0308,Phoenix,22,F
-U0309,Houston,59,M
-U0310,Phoenix,23,M
-U0311,Phoenix,58,F
-U0312,Los Angeles,63,F
-U0313,New York,31,F
-U0314,Phoenix,44,M
-U0315,Los Angeles,64,M
-U0316,Chicago,65,M
-U0317,New York,43,F
-U0318,New York,25,M
-U0319,Chicago,69,M
-U0320,Los Angeles,45,M
-U0321,Los Angeles,62,F
-U0322,Chicago,68,M
-U0323,Chicago,64,M
-U0324,Chicago,64,F
-U0325,Phoenix,35,F
-U0326,Chicago,68,M
-U0327,New York,54,F
-U0328,Los Angeles,56,M
-U0329,New York,56,F
-U0330,Los Angeles,61,M
-U0331,New York,30,F
-U0332,New York,21,F
-U0333,Chicago,58,M
-U0334,Los Angeles,64,F
-U0335,Los Angeles,64,F
-U0336,New York,61,M
-U0337,Los Angeles,58,M
-U0338,Houston,43,F
-U0339,Los Angeles,62,F
-U0340,Phoenix,50,M
-U0341,Phoenix,23,F
-U0342,Houston,47,M
-U0343,New York,20,M
-U0344,Phoenix,53,F
-U0345,Los Angeles,37,F
-U0346,Chicago,21,M
-U0347,New York,47,F
-U0348,Chicago,19,M
-U0349,Chicago,25,F
-U0350,Chicago,62,F
-U0351,Phoenix,23,F
-U0352,Houston,36,F
-U0353,New York,37,M
-U0354,Houston,64,M
-U0355,Los Angeles,31,F
-U0356,Phoenix,28,M
-U0357,Houston,30,M
-U0358,Chicago,50,F
-U0359,Los Angeles,27,M
-U0360,Los Angeles,61,F
-U0361,Phoenix,57,F
-U0362,Houston,18,M
-U0363,Phoenix,26,M
-U0364,New York,28,M
-U0365,Chicago,47,M
-U0366,New York,22,F
-U0367,Houston,61,F
-U0368,Phoenix,28,M
-U0369,Los Angeles,29,M
-U0370,Chicago,18,F
-U0371,Houston,46,F
-U0372,Chicago,58,M
-U0373,Houston,47,M
-U0374,Phoenix,54,M
-U0375,Chicago,31,F
-U0376,Houston,42,M
-U0377,Los Angeles,42,F
-U0378,Chicago,55,M
-U0379,New York,42,M
-U0380,New York,64,M
-U0381,Los Angeles,31,M
-U0382,Chicago,56,M
-U0383,Chicago,24,M
-U0384,Los Angeles,69,M
-U0385,Phoenix,50,F
-U0386,Chicago,53,M
-U0387,New York,50,M
-U0388,Phoenix,44,M
-U0389,New York,21,F
-U0390,Los Angeles,27,M
-U0391,Chicago,27,M
-U0392,Phoenix,48,M
-U0393,Houston,62,F
-U0394,Houston,32,M
-U0395,Phoenix,46,M
-U0396,Houston,29,M
-U0397,Los Angeles,44,M
-U0398,Chicago,68,F
-U0399,Houston,43,M
-U0400,Chicago,22,F
-U0401,Chicago,27,F
-U0402,Los Angeles,63,M
-U0403,Houston,43,M
-U0404,Los Angeles,42,M
-U0405,Houston,60,F
-U0406,Houston,53,F
-U0407,Houston,22,F
-U0408,Phoenix,25,M
-U0409,Los Angeles,66,F
-U0410,Los Angeles,26,F
-U0411,Chicago,46,F
-U0412,New York,39,M
-U0413,New York,63,M
-U0414,Phoenix,43,F
-U0415,Houston,40,M
-U0416,New York,68,F
-U0417,Phoenix,64,M
-U0418,Phoenix,26,F
-U0419,Houston,43,M
-U0420,Chicago,69,M
-U0421,Los Angeles,28,F
-U0422,Los Angeles,24,F
-U0423,Chicago,51,M
-U0424,New York,60,M
-U0425,Houston,68,F
-U0426,New York,24,F
-U0427,Phoenix,41,M
-U0428,New York,46,M
-U0429,Chicago,39,F
-U0430,Houston,67,M
-U0431,New York,24,M
-U0432,Houston,58,M
-U0433,Houston,39,F
-U0434,Phoenix,57,M
-U0435,New York,49,M
-U0436,Chicago,36,F
-U0437,Phoenix,66,M
-U0438,Phoenix,47,F
-U0439,Chicago,35,M
-U0440,Chicago,64,F
-U0441,Los Angeles,45,M
-U0442,Los Angeles,47,F
-U0443,Chicago,21,M
-U0444,Phoenix,56,M
-U0445,Los Angeles,27,M
-U0446,Los Angeles,50,M
-U0447,Houston,49,F
-U0448,Phoenix,25,M
-U0449,New York,20,F
-U0450,Chicago,25,F
-U0451,New York,64,M
-U0452,Chicago,68,M
-U0453,Houston,64,F
-U0454,Los Angeles,52,F
-U0455,Chicago,33,F
-U0456,Houston,54,F
-U0457,Phoenix,31,M
-U0458,Los Angeles,24,F
-U0459,New York,40,M
-U0460,Chicago,65,M
-U0461,Chicago,53,M
-U0462,Houston,35,F
-U0463,New York,64,M
-U0464,Houston,28,F
-U0465,Los Angeles,20,M
-U0466,Houston,37,M
-U0467,Phoenix,55,F
-U0468,New York,51,M
-U0469,Houston,52,F
-U0470,Los Angeles,39,F
-U0471,New York,27,F
-U0472,Chicago,63,M
-U0473,New York,67,M
-U0474,New York,31,M
-U0475,Los Angeles,62,M
-U0476,New York,39,M
-U0477,Houston,43,F
-U0478,Phoenix,62,F
-U0479,Phoenix,28,F
-U0480,Los Angeles,38,F
-U0481,Houston,58,F
-U0482,Los Angeles,34,M
-U0483,New York,55,F
-U0484,Houston,40,M
-U0485,Los Angeles,39,M
-U0486,Chicago,48,F
-U0487,Chicago,57,F
-U0488,Houston,62,M
-U0489,Phoenix,24,F
-U0490,Phoenix,34,F
-U0491,Phoenix,45,F
-U0492,Los Angeles,63,F
-U0493,Los Angeles,60,M
-U0494,Chicago,53,M
-U0495,Los Angeles,46,M
-U0496,Chicago,57,M
-U0497,Houston,66,M
-U0498,Chicago,51,M
-U0499,Phoenix,50,F
-U0500,Houston,64,F
-U0501,Chicago,52,F
-U0502,Chicago,34,F
-U0503,Chicago,62,M
-U0504,Los Angeles,26,F
-U0505,Los Angeles,26,M
-U0506,New York,18,M
-U0507,Phoenix,60,F
-U0508,Los Angeles,42,M
-U0509,Chicago,20,F
-U0510,Phoenix,61,F
-U0511,Chicago,47,F
-U0512,Los Angeles,29,M
-U0513,Phoenix,61,M
-U0514,Chicago,66,M
-U0515,New York,27,M
-U0516,New York,64,F
-U0517,Chicago,25,M
-U0518,Phoenix,34,M
-U0519,Phoenix,33,F
-U0520,New York,35,M
-U0521,Houston,32,M
-U0522,Los Angeles,58,M
-U0523,Los Angeles,64,F
-U0524,Los Angeles,33,M
-U0525,New York,40,F
-U0526,Phoenix,39,F
-U0527,Phoenix,24,M
-U0528,Chicago,65,F
-U0529,Los Angeles,40,M
-U0530,Los Angeles,48,F
-U0531,Houston,56,M
-U0532,Los Angeles,59,M
-U0533,New York,31,M
-U0534,Chicago,61,F
-U0535,Phoenix,51,M
-U0536,Phoenix,60,F
-U0537,Los Angeles,40,F
-U0538,New York,21,M
-U0539,New York,30,F
-U0540,New York,33,M
-U0541,Los Angeles,61,F
-U0542,Los Angeles,52,F
-U0543,Los Angeles,47,M
-U0544,Phoenix,30,F
-U0545,Chicago,56,F
-U0546,Houston,46,F
-U0547,New York,46,F
-U0548,Phoenix,61,M
-U0549,Houston,64,M
-U0550,Los Angeles,47,M
-U0551,Houston,22,M
-U0552,New York,20,M
-U0553,Los Angeles,21,F
-U0554,Phoenix,42,F
-U0555,New York,63,M
-U0556,New York,32,M
-U0557,New York,41,F
-U0558,Houston,54,M
-U0559,Phoenix,60,F
-U0560,Chicago,30,F
-U0561,New York,24,F
-U0562,Houston,25,F
-U0563,Phoenix,68,M
-U0564,Los Angeles,60,F
-U0565,New York,43,M
-U0566,New York,20,F
-U0567,Phoenix,22,F
-U0568,New York,26,M
-U0569,Houston,66,M
-U0570,Chicago,59,M
-U0571,Los Angeles,35,F
-U0572,New York,41,M
-U0573,Chicago,55,M
-U0574,Phoenix,64,M
-U0575,New York,21,F
-U0576,Phoenix,51,M
-U0577,New York,20,M
-U0578,Houston,46,M
-U0579,Chicago,42,F
-U0580,Houston,59,M
-U0581,New York,22,M
-U0582,Chicago,51,F
-U0583,Houston,32,F
-U0584,Chicago,22,F
-U0585,Los Angeles,35,F
-U0586,Phoenix,65,M
-U0587,Houston,22,M
-U0588,New York,67,F
-U0589,Phoenix,49,F
-U0590,Phoenix,68,F
-U0591,Chicago,57,F
-U0592,Chicago,30,M
-U0593,New York,23,F
-U0594,Chicago,33,F
-U0595,Houston,50,M
-U0596,Chicago,65,M
-U0597,Phoenix,60,M
-U0598,New York,59,F
-U0599,Chicago,55,F
-U0600,Phoenix,60,M
-U0601,Los Angeles,68,M
-U0602,Los Angeles,27,F
-U0603,Chicago,47,M
-U0604,Los Angeles,53,F
-U0605,Phoenix,46,F
-U0606,Los Angeles,49,M
-U0607,Chicago,66,M
-U0608,New York,57,M
-U0609,Los Angeles,41,M
-U0610,Chicago,65,F
-U0611,Chicago,47,M
-U0612,Los Angeles,58,F
-U0613,Los Angeles,45,F
+U0001,Los Angeles,25,M
+U0002,Phoenix,28,F
+U0003,New York,19,F
+U0004,Phoenix,29,F
+U0004,Chicago,39,M
+U0005,Los Angeles,59,F
+U0005,Houston,45,F
+U0006,New York,20,M
+U0006,Los Angeles,68,M
+U0007,Phoenix,42,F
+U0008,Chicago,19,F
+U0008,Houston,45,M
+U0009,Los Angeles,31,M
+U0009,Phoenix,53,F
+U0010,New York,59,F
+U0010,Chicago,46,M
+U0011,New York,53,F
+U0011,Chicago,48,F
+U0012,Phoenix,38,F
+U0013,Houston,43,M
+U0014,Los Angeles,46,M
+U0014,Chicago,62,M
+U0015,Chicago,25,F
+U0016,Houston,52,M
+U0017,Phoenix,58,F
+U0018,Chicago,65,M
+U0019,Houston,52,M
+U0020,Houston,18,M
+U0021,Los Angeles,43,F
+U0021,Houston,30,M
+U0022,Chicago,21,F
+U0023,Los Angeles,53,M
+U0024,New York,19,F
+U0024,Houston,62,F
+U0025,New York,28,F
+U0026,Phoenix,50,M
+U0026,Los Angeles,44,F
+U0027,Los Angeles,56,F
+U0028,Phoenix,50,M
+U0028,Houston,59,F
+U0029,Phoenix,66,F
+U0029,Houston,66,F
+U0030,New York,20,M
+U0030,Phoenix,54,M
+U0031,Houston,19,F
+U0031,Los Angeles,40,M
+U0032,Houston,19,M
+U0032,Los Angeles,61,F
+U0033,New York,34,M
+U0033,Los Angeles,55,F
+U0034,New York,28,M
+U0035,Houston,33,M
+U0035,Los Angeles,20,F
+U0036,New York,20,M
+U0036,Los Angeles,36,F
+U0037,Chicago,56,F
+U0037,Los Angeles,57,M
+U0038,Chicago,40,M
+U0039,New York,33,F
+U0039,Phoenix,65,M
+U0040,Chicago,65,F
+U0040,Phoenix,29,M
+U0041,Los Angeles,52,M
+U0042,New York,50,F
+U0042,Phoenix,69,M
+U0043,Chicago,65,F
+U0044,Phoenix,63,F
+U0045,Los Angeles,53,M
+U0045,Phoenix,21,M
+U0046,Los Angeles,34,F
+U0046,New York,50,F
+U0047,Houston,39,F
+U0047,New York,47,F
+U0048,New York,44,M
+U0048,Houston,51,M
+U0049,Phoenix,50,M
+U0049,Los Angeles,65,M
+U0050,Phoenix,34,F
+U0050,Los Angeles,45,F
+U0051,New York,58,M
+U0052,Chicago,48,M
+U0052,Houston,50,F
+U0053,Los Angeles,20,F
+U0054,Phoenix,20,F
+U0054,Houston,63,F
+U0055,New York,19,F
+U0055,Phoenix,34,F
+U0056,Phoenix,56,M
+U0057,Houston,41,M
+U0057,New York,24,M
+U0058,Chicago,63,F
+U0058,Los Angeles,31,F
+U0059,New York,40,M
+U0060,Phoenix,39,F
+U0060,Houston,39,M
+U0061,New York,60,F
+U0061,Houston,54,M
+U0062,Los Angeles,21,F
+U0062,Chicago,62,F
+U0063,Houston,59,F
+U0063,Los Angeles,36,M
+U0064,Phoenix,43,M
+U0064,New York,43,M
+U0065,Los Angeles,18,M
+U0065,Chicago,51,F
+U0066,Los Angeles,18,F
+U0066,Chicago,56,F
+U0067,Houston,20,F
+U0068,Phoenix,46,F
+U0068,Houston,45,M
+U0069,Phoenix,69,M
+U0070,Houston,53,M
+U0070,Chicago,47,M
+U0071,Chicago,53,F
+U0072,New York,49,M
+U0072,Houston,22,M
+U0073,Houston,41,F
+U0073,Phoenix,67,M
+U0074,Los Angeles,60,M
+U0074,Chicago,29,M
+U0075,Chicago,61,M
+U0076,New York,68,F
+U0077,Chicago,27,F
+U0078,Phoenix,21,F
+U0078,Houston,67,M
+U0079,Los Angeles,53,F
+U0080,Los Angeles,52,F
+U0081,Houston,41,M
+U0081,Phoenix,49,M
+U0082,Los Angeles,42,M
+U0082,Houston,58,F
+U0083,Chicago,30,M
+U0084,Los Angeles,36,F
+U0085,New York,69,M
+U0086,Houston,42,F
+U0086,Los Angeles,38,F
+U0087,Los Angeles,59,F
+U0088,Phoenix,46,M
+U0089,Houston,61,M
+U0090,Chicago,67,M
+U0091,Phoenix,55,M
+U0091,Chicago,25,F
+U0092,Houston,24,M
+U0093,New York,48,M
+U0094,Phoenix,27,F
+U0095,Phoenix,45,F
+U0096,Los Angeles,58,M
+U0096,Chicago,18,M
+U0097,Phoenix,66,M
+U0098,Chicago,61,M
+U0098,Houston,49,M
+U0099,Chicago,28,F
+U0100,New York,35,M
+U0101,Houston,18,M
+U0102,Los Angeles,28,F
+U0102,New York,27,F
+U0103,Chicago,45,F
+U0103,Los Angeles,43,F
+U0104,Phoenix,53,F
+U0104,Chicago,44,F
+U0105,Los Angeles,37,M
+U0106,Chicago,23,F
+U0106,Houston,68,F
+U0107,Phoenix,47,F
+U0108,Houston,50,F
+U0109,Phoenix,28,M
+U0110,Houston,66,M
+U0110,Phoenix,50,F
+U0111,Los Angeles,65,M
+U0112,Los Angeles,22,F
+U0112,Chicago,20,M
+U0113,Chicago,27,M
+U0114,Chicago,18,M
+U0115,Chicago,66,F
+U0116,New York,56,F
+U0116,Phoenix,51,F
+U0117,New York,18,F
+U0117,Houston,61,M
+U0118,Phoenix,64,M
+U0118,Los Angeles,32,M
+U0119,Phoenix,55,F
+U0120,New York,35,F
+U0120,Chicago,32,M
+U0121,Chicago,50,F
+U0122,New York,68,M
+U0123,New York,34,F
+U0124,Chicago,23,M
+U0125,Houston,65,M
+U0125,New York,68,M
+U0126,Houston,49,M
+U0127,Chicago,68,M
+U0128,Chicago,39,M
+U0129,Chicago,43,F
+U0129,Los Angeles,51,M
+U0130,Phoenix,43,M
+U0130,Houston,64,M
+U0131,Los Angeles,43,F
+U0131,Houston,18,F
+U0132,Los Angeles,39,F
+U0133,New York,19,M
+U0133,Phoenix,43,F
+U0134,Los Angeles,40,F
+U0135,Phoenix,55,M
+U0136,Houston,27,M
+U0137,Phoenix,61,M
+U0138,Chicago,27,M
+U0139,New York,64,F
+U0140,Phoenix,58,M
+U0140,Los Angeles,23,F
+U0141,Phoenix,23,M
+U0141,New York,50,M
+U0142,Chicago,65,F
+U0142,New York,47,M
+U0143,Los Angeles,48,F
+U0143,Phoenix,54,F
+U0144,New York,32,F
+U0144,Phoenix,66,F
+U0145,Phoenix,32,M
+U0145,Houston,25,F
+U0146,Chicago,43,F
+U0147,Phoenix,66,F
+U0147,Los Angeles,64,M
+U0148,Houston,53,M
+U0148,New York,60,M
+U0149,Chicago,40,F
+U0150,Houston,18,M
+U0150,Chicago,54,M
+U0151,Phoenix,55,M
+U0152,Houston,61,F
+U0153,Los Angeles,51,F
+U0153,New York,52,M
+U0154,Chicago,28,M
+U0155,Phoenix,54,M
+U0156,New York,21,M
+U0157,Houston,25,M
+U0158,Phoenix,40,M
+U0158,Houston,32,M
+U0159,Los Angeles,19,F
+U0160,New York,23,M
+U0161,New York,69,M
+U0162,Chicago,44,F
+U0163,Los Angeles,44,M
+U0164,New York,22,M
+U0165,Chicago,48,M
+U0165,Phoenix,53,M
+U0166,Los Angeles,25,M
+U0166,New York,46,M
+U0167,Chicago,48,M
+U0167,Phoenix,68,F
+U0168,Phoenix,37,M
+U0168,New York,27,F
+U0169,New York,43,M
+U0169,Houston,57,F
+U0170,Houston,60,F
+U0170,Los Angeles,61,F
+U0171,Chicago,59,M
+U0171,Los Angeles,45,M
+U0172,Houston,31,F
+U0172,Phoenix,58,F
+U0173,Houston,43,F
+U0174,Houston,68,F
+U0174,Los Angeles,32,M
+U0175,Chicago,69,M
+U0176,Phoenix,69,M
+U0177,Phoenix,35,M
+U0177,New York,51,M
+U0178,Los Angeles,41,M
+U0179,Chicago,50,M
+U0180,New York,67,M
+U0181,Los Angeles,37,F
+U0182,Phoenix,66,M
+U0182,Los Angeles,18,F
+U0183,New York,49,F
+U0184,Chicago,33,F
+U0185,Chicago,64,F
+U0186,Phoenix,55,M
+U0186,Chicago,21,M
+U0187,Los Angeles,49,F
+U0187,New York,27,M
+U0188,Phoenix,45,F
+U0188,Chicago,67,M
+U0189,Los Angeles,41,M
+U0190,Chicago,64,M
+U0191,Houston,51,M
+U0192,Phoenix,38,F
+U0192,Los Angeles,48,M
+U0193,Houston,50,M
+U0193,New York,38,M
+U0194,Houston,35,F
+U0194,Los Angeles,18,M
+U0195,Phoenix,19,M
+U0196,Los Angeles,55,F
+U0197,Chicago,52,F
+U0197,Houston,39,F
+U0198,Phoenix,63,M
+U0198,Chicago,49,M
+U0199,Phoenix,57,F
+U0199,Houston,62,M
+U0200,Chicago,63,F
+U0201,Chicago,40,M
+U0201,Phoenix,28,F
+U0202,Chicago,51,M
+U0202,Houston,54,M
+U0203,Phoenix,59,F
+U0203,New York,38,M
+U0204,New York,62,M
+U0205,Chicago,38,F
+U0206,New York,60,M
+U0206,Chicago,68,M
+U0207,Houston,28,F
+U0207,Phoenix,28,F
+U0208,Phoenix,52,F
+U0208,Los Angeles,51,M
+U0209,Chicago,53,M
+U0210,Los Angeles,62,M
+U0210,New York,51,M
+U0211,Phoenix,57,M
+U0211,Chicago,18,M
+U0212,Phoenix,56,M
+U0213,Houston,55,F
+U0214,Los Angeles,66,M
+U0214,Houston,34,F
+U0215,Phoenix,41,M
+U0216,Los Angeles,33,F
+U0216,Houston,25,M
+U0217,Los Angeles,43,M
+U0217,Phoenix,62,F
+U0218,Phoenix,40,F
+U0219,Houston,24,M
+U0220,Phoenix,35,M
+U0221,New York,59,M
+U0221,Los Angeles,34,F
+U0222,Phoenix,20,M
+U0223,New York,56,M
+U0224,Chicago,42,M
+U0224,Los Angeles,35,M
+U0225,New York,52,F
+U0225,Chicago,51,F
+U0226,Houston,49,M
+U0227,Chicago,46,F
+U0228,Los Angeles,27,F
+U0229,Chicago,66,M
+U0230,New York,54,M
+U0231,Chicago,26,M
+U0231,Houston,66,M
+U0232,New York,54,M
+U0232,Los Angeles,54,M
+U0233,Phoenix,42,M
+U0233,Houston,69,F
+U0234,Phoenix,68,M
+U0235,Houston,43,M
+U0235,New York,66,F
+U0236,Chicago,40,M
+U0237,Phoenix,59,M
+U0238,Chicago,20,F
+U0238,Houston,52,F
+U0239,Los Angeles,21,F
+U0240,Houston,20,M
+U0241,Los Angeles,51,F
+U0241,Houston,59,M
+U0242,Los Angeles,51,F
+U0243,Houston,23,M
+U0243,Phoenix,65,M
+U0244,Chicago,57,M
+U0244,Los Angeles,49,F
+U0245,New York,57,F
+U0246,Los Angeles,23,F
+U0246,Phoenix,36,F
+U0247,Los Angeles,65,M
+U0247,Phoenix,30,M
+U0248,Houston,44,F
+U0249,Houston,68,M
+U0249,Los Angeles,40,F
+U0250,Phoenix,48,F
+U0250,Houston,53,F
+U0251,Houston,49,M
+U0251,Los Angeles,63,M
+U0252,Houston,41,M
+U0253,New York,58,F
+U0254,New York,54,M
+U0254,Los Angeles,39,F
+U0255,New York,34,F
+U0255,Phoenix,39,M
+U0256,Phoenix,35,F
+U0256,Chicago,31,F
+U0257,Los Angeles,69,M
+U0258,Houston,64,M
+U0258,Los Angeles,49,M
+U0259,New York,63,F
+U0260,Los Angeles,58,M
+U0261,Houston,49,F
+U0262,Phoenix,20,M
+U0263,Los Angeles,64,F
+U0263,Chicago,54,M
+U0264,Los Angeles,18,F
+U0264,Phoenix,55,M
+U0265,Los Angeles,41,F
+U0265,Houston,35,M
+U0266,Phoenix,34,M
+U0266,New York,25,M
+U0267,Phoenix,46,F
+U0268,Chicago,37,F
+U0268,New York,32,M
+U0269,Chicago,65,M
+U0269,Houston,39,F
+U0270,New York,30,M
+U0271,New York,35,F
+U0271,Chicago,64,M
+U0272,Los Angeles,55,M
+U0272,Phoenix,25,M
+U0273,Los Angeles,29,M
+U0273,Phoenix,63,F
+U0274,Chicago,57,F
+U0275,Chicago,50,M
+U0275,Phoenix,30,F
+U0276,New York,56,F
+U0277,New York,32,F
+U0277,Chicago,59,M
+U0278,Los Angeles,20,M
+U0278,Phoenix,23,M
+U0279,Phoenix,58,F
+U0279,Los Angeles,29,F
+U0280,New York,64,M
+U0280,Chicago,24,M
+U0281,New York,43,M
+U0281,Chicago,20,M
+U0282,Chicago,35,F
+U0283,Los Angeles,68,F
+U0283,Chicago,36,M
+U0284,Los Angeles,49,M
+U0284,Chicago,61,F
+U0285,Houston,49,F
+U0285,New York,58,M
+U0286,Phoenix,46,F
+U0287,Houston,38,M
+U0288,Chicago,45,F
+U0288,Los Angeles,37,F
+U0289,Houston,58,F
+U0289,Phoenix,51,F
+U0290,New York,23,M
+U0290,Houston,59,M
+U0291,Chicago,20,M
+U0292,Los Angeles,43,F
+U0292,Houston,53,F
+U0293,New York,19,M
+U0293,Chicago,54,M
+U0294,Houston,64,F
+U0294,Chicago,56,M
+U0295,Houston,42,M
+U0295,New York,45,F
+U0296,Los Angeles,57,F
+U0297,Los Angeles,48,M
+U0297,Phoenix,27,M
+U0298,Houston,47,M
+U0298,Chicago,18,M
+U0299,Los Angeles,37,F
+U0299,Phoenix,60,M
+U0300,Los Angeles,66,F
+U0301,New York,61,M
+U0301,Los Angeles,37,F
+U0302,Phoenix,37,F
+U0302,Houston,46,M
+U0303,Houston,22,M
+U0304,New York,67,F
+U0305,Phoenix,67,M
+U0306,New York,55,F
+U0307,New York,25,F
+U0308,Houston,55,M
+U0309,Phoenix,43,M
+U0310,Chicago,25,M
+U0310,Houston,57,M
+U0311,Phoenix,21,M
+U0311,Los Angeles,18,M
+U0312,Los Angeles,43,F
+U0313,Chicago,26,M
+U0313,New York,58,M
+U0314,Los Angeles,48,M
+U0314,Chicago,28,F
+U0315,New York,55,M
+U0315,Chicago,23,F
+U0316,Los Angeles,62,M
+U0316,Houston,18,F
+U0317,Los Angeles,29,F
+U0317,Houston,24,M
+U0318,Los Angeles,50,M
+U0319,Phoenix,28,M
+U0319,Houston,25,F
+U0320,Chicago,20,M
+U0320,New York,43,F
+U0321,Houston,43,M
+U0321,Chicago,29,M
+U0322,Los Angeles,65,M
+U0322,New York,23,F
+U0323,Los Angeles,38,M
+U0323,New York,60,M
+U0324,Los Angeles,53,M
+U0324,New York,68,M
+U0325,Chicago,51,F
+U0325,Houston,21,F
+U0326,Phoenix,64,F
+U0327,New York,19,M
+U0328,Chicago,28,M
+U0329,Phoenix,48,M
+U0330,Chicago,53,F
+U0331,Chicago,64,M
+U0331,Los Angeles,30,M
+U0332,Chicago,26,M
+U0332,Houston,27,F
+U0333,Houston,41,F
+U0333,Chicago,66,F
+U0334,New York,36,F
+U0335,Chicago,53,F
+U0335,Houston,50,M
+U0336,Los Angeles,61,F
+U0336,Houston,50,M
+U0337,Houston,52,F
+U0338,Phoenix,30,M
+U0339,Houston,38,F
+U0340,Houston,58,M
+U0341,New York,43,F
+U0342,Houston,53,M
+U0342,Chicago,26,F
+U0343,Houston,21,M
+U0344,Chicago,44,F
+U0345,New York,20,F
+U0346,New York,34,M
+U0346,Houston,51,M
+U0347,New York,53,M
+U0347,Chicago,30,M
+U0348,Phoenix,47,M
+U0349,Phoenix,47,M
+U0350,Phoenix,37,F
+U0351,Chicago,38,F
+U0351,Los Angeles,23,F
+U0352,Houston,51,M
+U0352,Chicago,31,F
+U0353,Chicago,38,F
+U0354,Los Angeles,20,F
+U0355,Chicago,23,M
+U0355,New York,39,M
+U0356,Phoenix,64,M
+U0357,Houston,41,F
+U0357,Phoenix,47,F
+U0358,New York,31,M
+U0358,Los Angeles,32,M
+U0359,Houston,35,F
+U0360,Chicago,19,M
+U0360,New York,50,F
+U0361,Phoenix,69,M
+U0362,Houston,51,F
+U0363,Phoenix,21,M
+U0364,Los Angeles,31,F
+U0364,Chicago,35,M
+U0365,New York,40,M
+U0365,Houston,48,M
+U0366,Phoenix,19,F
+U0367,Houston,32,M
+U0368,Los Angeles,26,F
+U0369,Houston,21,M
+U0369,Los Angeles,57,M
+U0370,Chicago,53,F
+U0371,Houston,52,M
+U0371,Phoenix,44,F
+U0372,Chicago,19,F
+U0372,Houston,44,M
+U0373,New York,56,M
+U0373,Houston,18,M
+U0374,Houston,35,M
+U0375,Los Angeles,28,M
+U0376,Los Angeles,43,F
+U0377,New York,52,M
+U0377,Chicago,46,F
+U0378,Chicago,66,M
+U0379,Los Angeles,18,F
+U0379,Chicago,65,M
+U0380,New York,57,M
+U0381,New York,39,F
+U0381,Houston,66,M
+U0382,Los Angeles,22,F
+U0383,Houston,30,F
+U0383,Los Angeles,40,M
+U0384,New York,34,M
+U0385,Chicago,63,F
+U0385,New York,28,F
+U0386,New York,68,M
+U0387,Houston,49,F
+U0387,Chicago,27,F
+U0388,Phoenix,57,M
+U0389,Houston,66,F
+U0390,Phoenix,42,F
+U0390,Chicago,67,F
+U0391,New York,19,F
+U0392,New York,49,F
+U0393,Houston,34,F
+U0393,New York,35,M
+U0394,Phoenix,42,F
+U0395,Chicago,49,M
+U0395,Phoenix,63,M
+U0396,New York,47,M
+U0396,Houston,56,M
+U0397,Houston,30,F
+U0397,Phoenix,38,F
+U0398,New York,39,F
+U0398,Los Angeles,60,M
+U0399,Chicago,19,M
+U0399,Los Angeles,38,M
+U0400,Houston,68,M
+U0400,New York,41,F
+U0401,Los Angeles,20,M
+U0402,Houston,56,F
+U0402,Los Angeles,64,M
+U0403,New York,33,F
+U0403,Houston,18,F
+U0404,Houston,59,F
+U0405,Chicago,63,M
+U0406,Phoenix,30,M
+U0407,New York,29,M
+U0407,Chicago,31,F
+U0408,Chicago,28,F
+U0409,Houston,64,M
+U0410,Chicago,43,M
+U0410,New York,55,M
+U0411,New York,21,F
+U0411,Chicago,62,F
+U0412,Chicago,41,M
+U0413,New York,51,F
+U0413,Houston,35,M
+U0414,Los Angeles,63,M
+U0415,New York,55,M
+U0415,Chicago,48,F
+U0416,Phoenix,47,M
+U0416,Los Angeles,66,M
+U0417,Phoenix,45,M
+U0418,Phoenix,50,M
+U0419,Los Angeles,32,F
+U0419,New York,64,F
+U0420,Houston,33,M
+U0420,Los Angeles,69,M
+U0421,Phoenix,66,F
+U0421,Houston,62,F
+U0422,Los Angeles,36,F
+U0423,Phoenix,54,F
+U0424,Chicago,23,F
+U0425,Houston,53,F
+U0425,Phoenix,58,F
+U0426,Los Angeles,37,F
+U0426,Chicago,42,F
+U0427,New York,45,M
+U0428,New York,33,F
+U0429,Chicago,61,M
+U0430,New York,35,F
+U0431,Chicago,44,M
+U0432,New York,41,M
+U0432,Phoenix,65,M
+U0433,Chicago,54,F
+U0434,Phoenix,43,M
+U0435,Los Angeles,38,F
+U0435,Phoenix,29,M
+U0436,Chicago,21,M
+U0437,Houston,50,M
+U0437,Phoenix,41,M
+U0438,Chicago,58,M
+U0439,Houston,63,F
+U0439,Chicago,51,M
+U0440,Houston,65,M
+U0440,Chicago,19,F
+U0441,Houston,29,F
+U0441,Los Angeles,64,F
+U0442,Phoenix,68,M
+U0442,New York,66,F
+U0443,Chicago,21,F
+U0443,New York,69,F
+U0444,New York,45,F
+U0445,Houston,43,M
+U0446,Chicago,25,F
+U0447,New York,56,F
+U0448,Houston,36,M
+U0449,New York,41,F
+U0450,Los Angeles,25,M
+U0450,Chicago,26,M
+U0451,New York,19,M
+U0452,Los Angeles,67,M
+U0452,Houston,57,F
+U0453,Phoenix,25,M
+U0454,Los Angeles,21,F
+U0454,New York,23,F
+U0455,Phoenix,28,F
+U0455,Los Angeles,33,M
+U0456,Los Angeles,47,M
+U0457,New York,48,M
+U0457,Chicago,44,M
+U0458,Phoenix,51,F
+U0459,Houston,46,M
+U0459,Los Angeles,69,F
+U0460,Los Angeles,19,M
+U0460,Phoenix,61,F
+U0461,New York,20,F
+U0462,Chicago,43,F
+U0462,Phoenix,50,M
+U0463,Phoenix,64,F
+U0464,Houston,39,M
+U0464,Los Angeles,22,F
+U0465,Houston,33,F
+U0466,Los Angeles,23,M
+U0466,New York,37,F
+U0467,Phoenix,64,F
+U0468,Los Angeles,63,F
+U0469,Los Angeles,26,M
+U0469,Chicago,30,M
+U0470,Phoenix,44,M
+U0470,Houston,44,F
+U0471,Chicago,36,F
+U0471,Phoenix,31,M
+U0472,Houston,55,M
+U0472,Chicago,39,F
+U0473,Houston,59,M
+U0474,Los Angeles,31,M
+U0475,Los Angeles,36,M
+U0476,Chicago,26,F
+U0476,Los Angeles,50,F
+U0477,Houston,52,M
+U0477,Phoenix,31,F
+U0478,Phoenix,63,F
+U0479,Chicago,47,F
+U0480,New York,38,M
+U0481,Los Angeles,61,M
+U0482,Los Angeles,21,M
+U0483,Chicago,62,M
+U0484,Chicago,32,M
+U0485,Chicago,57,M
+U0486,Los Angeles,21,M
+U0487,New York,62,M
+U0488,Chicago,58,M
+U0488,New York,25,M
+U0489,Houston,29,F
+U0489,Chicago,43,M
+U0490,Phoenix,46,M
+U0490,New York,66,M
+U0491,Phoenix,66,M
+U0491,Los Angeles,55,M
+U0492,Phoenix,50,F
+U0492,Houston,56,M
+U0493,Phoenix,60,F
+U0494,Los Angeles,58,M
+U0494,Chicago,41,M
+U0495,Los Angeles,56,M
+U0496,Houston,30,M
+U0496,New York,63,M
+U0497,Los Angeles,62,F
+U0498,Chicago,45,F
+U0499,Houston,47,M
+U0500,Phoenix,19,F
+U0501,Houston,36,M
+U0501,Phoenix,45,F
+U0502,Chicago,32,M
+U0502,Houston,56,F
+U0503,Houston,68,M
+U0504,Chicago,26,M
+U0505,Phoenix,19,M
+U0506,New York,19,M
+U0506,Phoenix,58,F
+U0507,Los Angeles,62,M
+U0507,Houston,43,M
+U0508,Los Angeles,40,F
+U0509,Chicago,35,F
+U0510,Los Angeles,55,F
+U0511,New York,20,M
+U0511,Chicago,45,F
+U0512,Phoenix,28,F
+U0513,Houston,53,F
+U0513,Phoenix,50,F
+U0514,Phoenix,21,M
+U0515,Houston,36,M
+U0515,Los Angeles,27,F
+U0516,Los Angeles,48,M
+U0516,New York,28,M
+U0517,New York,69,F
+U0518,Los Angeles,67,M
+U0518,Houston,47,F
+U0519,Los Angeles,21,F
+U0519,New York,44,F
+U0520,New York,68,F
+U0520,Los Angeles,23,M
+U0521,Chicago,54,F
+U0522,New York,21,F
+U0522,Los Angeles,26,M
+U0523,New York,69,M
+U0524,Los Angeles,66,M
+U0525,Houston,40,M
+U0525,Chicago,20,F
+U0526,Houston,38,F
+U0526,New York,61,M
+U0527,Los Angeles,45,M
+U0527,New York,41,M
+U0528,Houston,53,M
+U0529,Phoenix,39,M
+U0530,Phoenix,38,F
+U0530,Houston,45,M
+U0531,Chicago,44,M
+U0532,Houston,29,F
+U0532,Phoenix,38,F
+U0533,Chicago,37,M
+U0534,Chicago,68,M
+U0534,New York,43,F
+U0535,Chicago,53,F
+U0535,New York,28,M
+U0536,Los Angeles,67,M
+U0536,Houston,68,M
+U0537,Houston,64,F
+U0537,New York,24,M
+U0538,Los Angeles,34,M
+U0539,Houston,22,M
+U0540,New York,67,F
+U0541,Houston,27,F
+U0541,New York,38,F
+U0542,Houston,47,M
+U0542,Phoenix,47,M
+U0543,Phoenix,57,M
+U0544,Los Angeles,18,M
+U0544,Phoenix,54,M
+U0545,Los Angeles,18,F
+U0545,Chicago,52,F
+U0546,Phoenix,21,F
+U0547,New York,30,M
+U0548,Phoenix,55,F
+U0548,Chicago,19,F
+U0549,New York,19,F
+U0550,Los Angeles,51,M
+U0550,New York,20,F
+U0551,Houston,56,M
+U0552,Houston,38,M
+U0553,Phoenix,48,M
+U0554,New York,37,F
+U0555,New York,41,M
+U0555,Chicago,39,F
+U0556,Los Angeles,25,F
+U0557,Chicago,28,M
+U0557,New York,29,M
+U0558,Houston,46,F
+U0559,Phoenix,58,F
+U0559,Houston,22,F
+U0560,Los Angeles,18,M
+U0561,Phoenix,21,F
+U0562,Los Angeles,23,F
+U0562,Houston,29,M
+U0563,Phoenix,46,M
+U0564,Houston,64,M
+U0564,Los Angeles,38,M
+U0565,Chicago,61,M
+U0566,Phoenix,26,M
+U0567,Houston,34,M
+U0567,Los Angeles,65,M
+U0568,Phoenix,35,F
+U0568,Los Angeles,31,M
+U0569,Los Angeles,30,F
+U0569,Phoenix,54,M
+U0570,Phoenix,55,M
+U0570,Chicago,39,M
+U0571,Los Angeles,51,M
+U0571,Houston,41,F
+U0572,New York,23,F
+U0573,New York,18,F
+U0573,Chicago,38,F
+U0574,Los Angeles,27,M
+U0575,Chicago,54,F
+U0575,New York,41,F
+U0576,Phoenix,52,M
+U0576,Chicago,20,M
+U0577,Phoenix,41,M
+U0577,Chicago,60,M
+U0578,New York,18,F
+U0578,Chicago,45,F
+U0579,Phoenix,44,F
+U0580,New York,58,F
+U0581,Los Angeles,24,F
+U0582,Los Angeles,53,M
+U0583,Los Angeles,49,M
+U0584,Houston,25,M
+U0584,Los Angeles,39,M
+U0585,Los Angeles,51,F
+U0585,Phoenix,45,M
+U0586,New York,43,F
+U0587,Chicago,32,F
+U0588,Houston,61,M
+U0588,Los Angeles,59,M
+U0589,Houston,36,M
+U0589,Phoenix,30,M
+U0590,New York,28,M
+U0590,Los Angeles,18,M
+U0591,New York,64,M
+U0592,Chicago,22,F
+U0593,Houston,67,F
+U0593,Phoenix,44,F
+U0594,Chicago,22,F
+U0595,New York,30,M
+U0595,Chicago,47,M
+U0596,Los Angeles,61,M
+U0596,Chicago,34,F
+U0597,Houston,45,F
+U0598,Phoenix,65,F
+U0598,Los Angeles,43,F
+U0599,Los Angeles,35,M
+U0600,New York,61,M
+U0601,Phoenix,60,M
+U0602,New York,30,F
+U0603,Phoenix,60,M
+U0603,New York,34,M
+U0604,Chicago,61,M
+U0604,Houston,54,F
+U0605,Chicago,60,M
+U0605,New York,41,F
+U0606,New York,54,M
+U0606,Phoenix,46,M
+U0607,Houston,26,F
+U0607,Chicago,44,F
+U0608,Los Angeles,24,M
+U0609,Chicago,52,M
+U0610,Phoenix,35,M
+U0611,Los Angeles,35,F
+U0611,Chicago,18,F
+U0612,Chicago,69,M
+U0613,Los Angeles,22,F
+U0613,Houston,18,M
 U0614,Phoenix,46,F
-U0615,Houston,37,F
-U0616,Houston,67,F
-U0617,Chicago,34,F
-U0618,New York,27,F
-U0619,New York,39,F
-U0620,Chicago,35,F
-U0621,Phoenix,29,F
-U0622,Chicago,52,F
-U0623,Phoenix,29,M
-U0624,Phoenix,28,M
-U0625,Chicago,28,F
-U0626,Los Angeles,51,F
-U0627,Los Angeles,46,F
-U0628,New York,52,M
-U0629,New York,56,M
-U0630,Phoenix,46,M
-U0631,Houston,49,F
-U0632,Houston,39,M
-U0633,Chicago,20,M
-U0634,Houston,45,M
-U0635,Phoenix,64,F
-U0636,Phoenix,37,F
-U0637,Chicago,22,M
-U0638,Chicago,18,F
-U0639,Houston,55,M
-U0640,Los Angeles,52,F
-U0641,New York,42,F
-U0642,Houston,35,M
-U0643,Houston,33,M
-U0644,Houston,63,M
-U0645,New York,46,M
-U0646,Chicago,63,F
-U0647,Houston,24,M
-U0648,Phoenix,61,M
-U0649,Houston,20,F
-U0650,New York,47,F
-U0651,New York,61,F
-U0652,Houston,26,F
-U0653,New York,39,F
-U0654,Phoenix,19,F
-U0655,Chicago,30,M
-U0656,Phoenix,35,F
-U0657,Los Angeles,63,M
-U0658,Chicago,62,M
-U0659,New York,55,M
-U0660,Chicago,39,M
-U0661,New York,34,F
-U0662,New York,63,F
-U0663,Houston,37,M
-U0664,Los Angeles,57,F
-U0665,Los Angeles,50,F
-U0666,New York,50,M
-U0667,Phoenix,47,M
-U0668,Phoenix,69,F
-U0669,Los Angeles,55,M
-U0670,Los Angeles,63,F
-U0671,Los Angeles,32,F
-U0672,Los Angeles,61,M
-U0673,Chicago,20,M
-U0674,New York,23,M
-U0675,New York,67,F
-U0676,Los Angeles,45,F
-U0677,Houston,64,M
-U0678,Chicago,37,F
-U0679,Houston,23,F
-U0680,Los Angeles,20,M
-U0681,New York,59,F
-U0682,Chicago,35,F
-U0683,Houston,40,F
-U0684,Phoenix,42,M
-U0685,Chicago,36,M
-U0686,Houston,62,F
-U0687,Phoenix,49,M
-U0688,Houston,35,F
-U0689,Los Angeles,36,F
-U0690,Phoenix,49,F
-U0691,New York,20,F
-U0692,Los Angeles,68,M
-U0693,Phoenix,46,F
-U0694,New York,24,F
-U0695,New York,47,M
-U0696,Los Angeles,41,F
-U0697,Phoenix,21,F
-U0698,Houston,37,F
-U0699,Los Angeles,66,M
-U0700,New York,53,F
-U0701,Phoenix,51,F
-U0702,Houston,19,M
-U0703,Los Angeles,53,F
-U0704,Los Angeles,68,M
-U0705,Los Angeles,29,M
-U0706,Phoenix,35,F
-U0707,Phoenix,32,M
-U0708,Chicago,43,F
-U0709,Houston,65,F
-U0710,Los Angeles,61,F
-U0711,Los Angeles,54,M
-U0712,Phoenix,58,F
-U0713,Houston,64,F
-U0714,New York,37,F
-U0715,New York,42,M
-U0716,Houston,19,M
-U0717,Phoenix,22,M
-U0718,New York,57,F
-U0719,Houston,62,M
-U0720,Chicago,27,M
-U0721,Los Angeles,46,F
-U0722,Houston,47,M
-U0723,New York,22,F
-U0724,Chicago,29,M
-U0725,New York,37,F
-U0726,New York,60,M
-U0727,Phoenix,29,M
-U0728,New York,66,F
-U0729,Houston,45,M
-U0730,Houston,37,F
-U0731,Los Angeles,26,M
-U0732,Phoenix,37,F
-U0733,Phoenix,18,M
-U0734,Chicago,23,M
-U0735,Phoenix,22,M
-U0736,New York,68,F
-U0737,Houston,59,F
-U0738,Phoenix,67,F
-U0739,Chicago,60,F
-U0740,Los Angeles,42,F
-U0741,Phoenix,56,M
-U0742,Chicago,67,M
-U0743,Houston,55,F
-U0744,Phoenix,69,F
-U0745,Los Angeles,59,F
-U0746,Los Angeles,38,M
-U0747,Phoenix,49,F
-U0748,Phoenix,64,F
-U0749,Los Angeles,18,M
-U0750,Los Angeles,60,F
-U0751,Los Angeles,35,M
-U0752,Los Angeles,25,M
-U0753,New York,29,M
-U0754,New York,63,F
-U0755,New York,18,M
-U0756,Phoenix,65,M
-U0757,New York,43,F
-U0758,Houston,19,F
-U0759,New York,50,M
-U0760,New York,65,M
-U0761,New York,30,M
-U0762,New York,28,F
-U0763,Los Angeles,55,F
-U0764,Houston,55,M
-U0765,Los Angeles,35,M
-U0766,New York,40,M
-U0767,Phoenix,28,M
-U0768,New York,38,M
-U0769,New York,29,F
-U0770,Phoenix,36,F
-U0771,Phoenix,42,M
-U0772,New York,49,M
-U0773,Chicago,61,F
-U0774,Los Angeles,28,M
-U0775,Los Angeles,19,F
-U0776,New York,20,M
-U0777,Los Angeles,25,F
-U0778,Los Angeles,23,F
-U0779,Phoenix,46,F
-U0780,New York,29,M
-U0781,Los Angeles,65,M
-U0782,Houston,53,M
-U0783,Chicago,65,M
-U0784,Los Angeles,61,M
-U0785,Chicago,62,M
-U0786,Chicago,33,M
-U0787,Phoenix,32,M
-U0788,Houston,28,M
-U0789,Houston,38,M
-U0790,Chicago,51,F
-U0791,Phoenix,21,F
-U0792,Phoenix,69,F
-U0793,Chicago,46,M
-U0794,Houston,52,F
-U0795,Los Angeles,53,F
-U0796,Los Angeles,19,M
-U0797,Phoenix,21,F
-U0798,New York,47,M
-U0799,Houston,27,M
-U0800,Phoenix,48,M
+U0614,Chicago,22,F
+U0615,Houston,43,M
+U0616,Los Angeles,24,F
+U0617,Houston,40,F
+U0617,Chicago,37,M
+U0618,Chicago,58,F
+U0618,Los Angeles,36,F
+U0619,Phoenix,21,F
+U0620,Los Angeles,64,F
+U0621,Chicago,41,F
+U0622,Phoenix,66,M
+U0622,New York,69,M
+U0623,Houston,58,M
+U0624,Phoenix,54,M
+U0625,Houston,68,F
+U0625,Los Angeles,64,F
+U0626,Phoenix,53,M
+U0626,New York,58,M
+U0627,New York,54,M
+U0628,Houston,65,M
+U0628,New York,64,F
+U0629,Chicago,66,F
+U0629,Houston,48,F
+U0630,New York,26,M
+U0630,Houston,28,F
+U0631,Los Angeles,38,M
+U0631,Houston,55,M
+U0632,Los Angeles,41,F
+U0633,Houston,40,F
+U0633,Phoenix,56,M
+U0634,Chicago,58,M
+U0634,Houston,26,M
+U0635,Los Angeles,34,M
+U0635,Chicago,66,F
+U0636,Los Angeles,20,F
+U0636,Houston,32,F
+U0637,Phoenix,60,F
+U0637,Chicago,52,F
+U0638,Houston,21,F
+U0638,Chicago,46,M
+U0639,Chicago,36,M
+U0639,Los Angeles,18,M
+U0640,Chicago,36,F
+U0641,Houston,37,M
+U0641,New York,21,F
+U0642,Chicago,54,F
+U0643,Houston,68,F
+U0644,Chicago,28,M
+U0644,Los Angeles,44,F
+U0645,Chicago,31,M
+U0646,Houston,65,M
+U0646,Phoenix,36,F
+U0647,Phoenix,56,F
+U0648,Chicago,32,M
+U0649,Phoenix,37,M
+U0649,New York,41,F
+U0650,Chicago,43,F
+U0651,Houston,22,F
+U0652,Houston,37,M
+U0652,Chicago,66,M
+U0653,Los Angeles,27,F
+U0654,New York,41,F
+U0655,Phoenix,44,M
+U0655,New York,64,F
+U0656,Houston,61,M
+U0656,Phoenix,37,M
+U0657,Chicago,39,M
+U0658,Houston,49,F
+U0658,Phoenix,23,M
+U0659,Phoenix,21,M
+U0660,Chicago,32,M
+U0661,Los Angeles,39,F
+U0661,Phoenix,51,F
+U0662,Los Angeles,62,F
+U0663,Los Angeles,27,F
+U0664,New York,49,F
+U0665,Chicago,67,M
+U0665,Phoenix,69,M
+U0666,Los Angeles,21,M
+U0667,Houston,45,M
+U0668,Houston,37,M
+U0669,Los Angeles,49,F
+U0669,Houston,64,F
+U0670,Chicago,60,F
+U0671,Phoenix,50,M
+U0671,Houston,33,F
+U0672,Chicago,36,F
+U0672,New York,30,F
+U0673,Phoenix,44,F
+U0673,New York,25,M
+U0674,Phoenix,23,M
+U0674,Chicago,42,M
+U0675,Chicago,54,M
+U0676,Phoenix,60,M
+U0676,Houston,55,F
+U0677,Phoenix,32,F
+U0677,New York,35,F
+U0678,Houston,21,F
+U0679,New York,21,F
+U0679,Houston,32,M
+U0680,New York,18,F
+U0681,Los Angeles,66,F
+U0681,Chicago,45,M
+U0682,Houston,36,M
+U0682,Los Angeles,21,M
+U0683,New York,59,M
+U0684,Houston,69,F
+U0685,New York,49,M
+U0686,Houston,56,F
+U0686,Chicago,50,M
+U0687,Chicago,62,M
+U0688,Chicago,40,M
+U0689,Houston,39,M
+U0689,Phoenix,46,M
+U0690,New York,64,F
+U0691,Houston,38,F
+U0692,New York,50,F
+U0693,Phoenix,31,F
+U0694,Phoenix,59,F
+U0694,New York,28,F
+U0695,New York,45,F
+U0696,Los Angeles,50,F
+U0696,Phoenix,50,M
+U0697,New York,18,M
+U0698,Houston,18,F
+U0698,Phoenix,46,F
+U0699,Los Angeles,46,M
+U0700,Phoenix,22,F
+U0700,Houston,66,M
+U0701,Phoenix,18,M
+U0702,Los Angeles,20,M
+U0702,Houston,46,M
+U0703,Chicago,45,M
+U0704,Chicago,33,M
+U0704,Los Angeles,68,F
+U0705,Houston,36,M
+U0706,Los Angeles,28,M
+U0706,Houston,63,F
+U0707,New York,25,F
+U0708,Phoenix,53,M
+U0708,Los Angeles,45,F
+U0709,Houston,30,M
+U0710,Los Angeles,59,M
+U0710,Chicago,20,M
+U0711,New York,69,M
+U0712,New York,60,F
+U0712,Los Angeles,66,M
+U0713,Chicago,32,F
+U0713,Phoenix,42,F
+U0714,Chicago,65,M
+U0714,Phoenix,56,F
+U0715,Los Angeles,36,F
+U0715,Phoenix,61,M
+U0716,Phoenix,23,M
+U0717,Los Angeles,20,M
+U0717,Phoenix,43,F
+U0718,Houston,59,F
+U0718,Chicago,59,M
+U0719,Houston,57,M
+U0720,New York,27,F
+U0721,Phoenix,29,M
+U0722,Chicago,55,M
+U0722,Houston,64,M
+U0723,Houston,47,M
+U0723,Phoenix,49,F
+U0724,Houston,53,M
+U0725,Phoenix,32,F
+U0725,Houston,49,M
+U0726,Chicago,29,M
+U0727,Houston,23,M
+U0727,Los Angeles,38,F
+U0728,New York,65,F
+U0729,Los Angeles,24,F
+U0730,Houston,55,F
+U0731,Los Angeles,48,M
+U0732,Houston,44,M
+U0732,New York,48,M
+U0733,Los Angeles,69,M
+U0733,Chicago,38,M
+U0734,New York,65,M
+U0734,Houston,52,F
+U0735,Phoenix,60,F
+U0735,Houston,52,M
+U0736,Chicago,36,M
+U0736,Los Angeles,21,M
+U0737,New York,60,M
+U0738,New York,51,M
+U0738,Los Angeles,45,M
+U0739,Los Angeles,29,F
+U0740,Chicago,31,M
+U0740,Phoenix,49,M
+U0741,New York,35,F
+U0742,Los Angeles,58,M
+U0743,Houston,39,M
+U0744,Phoenix,29,F
+U0745,Phoenix,63,F
+U0745,Houston,67,F
+U0746,Los Angeles,32,F
+U0746,Phoenix,57,F
+U0747,New York,30,M
+U0747,Phoenix,19,M
+U0748,New York,28,F
+U0749,Phoenix,43,F
+U0749,Houston,34,F
+U0750,New York,60,M
+U0750,Phoenix,33,M
+U0751,Houston,26,M
+U0752,Chicago,64,M
+U0753,Los Angeles,47,F
+U0754,Los Angeles,29,M
+U0754,Phoenix,34,F
+U0755,Houston,51,F
+U0755,New York,24,F
+U0756,New York,41,F
+U0756,Houston,49,F
+U0757,Los Angeles,57,F
+U0758,New York,28,F
+U0758,Los Angeles,25,M
+U0759,New York,66,F
+U0759,Phoenix,30,F
+U0760,New York,48,F
+U0760,Chicago,55,M
+U0761,Phoenix,45,F
+U0761,New York,49,F
+U0762,New York,52,F
+U0763,Phoenix,18,M
+U0763,New York,48,M
+U0764,Houston,51,M
+U0764,Phoenix,39,M
+U0765,Phoenix,59,M
+U0766,Chicago,37,F
+U0767,Chicago,26,M
+U0768,New York,24,M
+U0768,Phoenix,52,F
+U0769,Phoenix,57,M
+U0769,Los Angeles,62,M
+U0770,Houston,43,F
+U0771,New York,42,M
+U0772,New York,45,M
+U0772,Houston,47,M
+U0773,Houston,33,F
+U0773,Phoenix,49,M
+U0774,Phoenix,52,F
+U0774,Chicago,20,F
+U0775,Los Angeles,46,M
+U0776,Los Angeles,48,F
+U0777,Phoenix,39,F
+U0778,New York,66,F
+U0779,Houston,50,M
+U0779,Chicago,32,M
+U0780,Chicago,62,M
+U0781,Houston,30,M
+U0781,New York,54,M
+U0782,Houston,35,M
+U0782,Los Angeles,34,F
+U0783,Chicago,63,F
+U0784,Houston,38,F
+U0784,Los Angeles,34,F
+U0785,Phoenix,27,F
+U0786,Houston,69,M
+U0787,Los Angeles,51,F
+U0787,Phoenix,26,F
+U0788,Chicago,25,F
+U0789,Phoenix,59,F
+U0790,Los Angeles,34,M
+U0791,Phoenix,57,M
+U0791,Chicago,23,F
+U0792,Houston,25,M
+U0792,Los Angeles,66,M
+U0793,Los Angeles,68,F
+U0794,Los Angeles,23,M
+U0795,Chicago,54,M
+U0795,New York,69,F
+U0796,Houston,30,F
+U0796,Phoenix,49,M
+U0797,Phoenix,52,F
+U0798,Phoenix,35,F
+U0798,Los Angeles,57,M
+U0799,New York,55,F
+U0800,Phoenix,31,M
 U0801,New York,59,M
-U0802,Los Angeles,53,F
-U0803,Houston,24,F
-U0804,New York,61,F
-U0805,Phoenix,59,M
-U0806,Chicago,30,M
-U0807,Phoenix,39,F
-U0808,New York,43,M
-U0809,Los Angeles,41,F
-U0810,New York,59,F
-U0811,New York,43,M
-U0812,Phoenix,21,F
-U0813,Chicago,53,F
-U0814,Los Angeles,42,F
-U0815,Chicago,53,F
-U0816,New York,67,M
-U0817,New York,52,F
-U0818,Los Angeles,50,M
-U0819,Phoenix,34,F
-U0820,Phoenix,32,M
-U0821,Houston,24,F
-U0822,Chicago,27,M
-U0823,Phoenix,42,F
-U0824,Chicago,24,M
-U0825,Los Angeles,20,F
-U0826,Phoenix,56,M
-U0827,New York,28,M
-U0828,Houston,63,M
-U0829,Houston,43,F
-U0830,Los Angeles,49,M
-U0831,Phoenix,63,F
-U0832,Phoenix,50,F
-U0833,Chicago,26,F
-U0834,New York,23,M
-U0835,Houston,30,M
-U0836,Houston,19,F
-U0837,Phoenix,61,M
-U0838,Phoenix,25,F
-U0839,Los Angeles,20,F
-U0840,Houston,20,F
-U0841,Los Angeles,40,F
-U0842,Los Angeles,55,M
-U0843,Chicago,51,M
-U0844,Houston,25,F
-U0845,Houston,53,M
-U0846,Phoenix,46,M
-U0847,New York,33,F
-U0848,New York,33,F
-U0849,New York,33,F
-U0850,Houston,20,F
-U0851,Phoenix,40,F
-U0852,Chicago,57,F
-U0853,Phoenix,37,F
-U0854,Houston,18,M
-U0855,Phoenix,37,F
-U0856,Los Angeles,25,M
-U0857,New York,33,F
-U0858,Houston,51,M
-U0859,Houston,50,M
-U0860,Los Angeles,62,F
-U0861,New York,38,F
-U0862,Chicago,26,M
-U0863,Chicago,20,F
-U0864,Los Angeles,21,F
-U0865,Chicago,39,M
-U0866,Houston,54,F
-U0867,Los Angeles,29,M
-U0868,New York,59,F
-U0869,Los Angeles,62,M
-U0870,Los Angeles,47,F
-U0871,Chicago,33,M
-U0872,Houston,31,M
-U0873,Phoenix,52,F
-U0874,Chicago,19,M
-U0875,Los Angeles,31,F
-U0876,Los Angeles,27,M
-U0877,Los Angeles,42,M
-U0878,New York,53,M
-U0879,New York,63,F
-U0880,Phoenix,69,M
-U0881,Chicago,58,F
-U0882,New York,30,M
-U0883,Los Angeles,25,M
-U0884,Los Angeles,21,M
-U0885,Houston,62,F
-U0886,Houston,49,F
-U0887,Houston,30,M
-U0888,Houston,35,M
-U0889,Houston,23,F
-U0890,Phoenix,60,F
-U0891,Los Angeles,40,M
-U0892,Chicago,22,M
-U0893,Los Angeles,27,M
-U0894,Los Angeles,28,F
-U0895,Phoenix,48,F
-U0896,New York,40,M
-U0897,New York,52,M
-U0898,New York,45,F
-U0899,Chicago,24,F
-U0900,Houston,50,F
-U0901,Houston,56,F
-U0902,New York,54,M
-U0903,Houston,69,M
-U0904,Houston,53,F
-U0905,Los Angeles,54,F
-U0906,Phoenix,52,M
-U0907,Chicago,45,F
-U0908,Phoenix,39,M
-U0909,Los Angeles,44,M
-U0910,Phoenix,27,M
-U0911,Los Angeles,56,M
-U0912,New York,30,M
-U0913,Los Angeles,67,M
-U0914,Phoenix,35,M
-U0915,Phoenix,49,F
-U0916,New York,52,M
-U0917,Houston,28,M
-U0918,Phoenix,69,F
-U0919,Phoenix,43,F
-U0920,Houston,51,F
-U0921,Houston,35,F
-U0922,Chicago,58,M
-U0923,Houston,46,F
-U0924,Los Angeles,38,F
-U0925,Phoenix,66,M
-U0926,New York,26,M
-U0927,New York,19,F
-U0928,Phoenix,50,F
-U0929,Los Angeles,57,M
-U0930,Houston,28,M
-U0931,Los Angeles,25,M
-U0932,New York,32,M
-U0933,Houston,40,F
-U0934,Phoenix,36,M
-U0935,Houston,18,M
-U0936,Phoenix,25,M
-U0937,New York,40,M
-U0938,New York,62,M
-U0939,Chicago,41,M
-U0940,Phoenix,37,M
-U0941,Los Angeles,48,F
-U0942,Houston,28,F
-U0943,Chicago,24,M
-U0944,Houston,68,M
-U0945,Los Angeles,22,M
-U0946,Los Angeles,55,M
-U0947,Houston,34,M
-U0948,New York,26,F
-U0949,Los Angeles,20,M
-U0950,Houston,21,F
-U0951,New York,58,M
-U0952,Los Angeles,67,F
-U0953,Phoenix,53,F
-U0954,Chicago,57,F
-U0955,Phoenix,49,M
-U0956,Houston,51,M
-U0957,Los Angeles,32,M
-U0958,Los Angeles,26,M
-U0959,Chicago,31,F
-U0960,Los Angeles,42,F
-U0961,Houston,47,F
-U0962,Phoenix,61,F
-U0963,Chicago,63,M
-U0964,Phoenix,52,F
-U0965,New York,29,M
-U0966,Los Angeles,38,M
-U0967,Phoenix,25,F
-U0968,Houston,49,M
-U0969,Chicago,42,F
-U0970,Houston,46,M
-U0971,Los Angeles,19,M
-U0972,Phoenix,32,F
-U0973,Chicago,67,M
-U0974,Chicago,40,F
-U0975,Houston,30,F
-U0976,Chicago,54,M
-U0977,New York,20,M
-U0978,Chicago,40,M
-U0979,Houston,64,M
-U0980,Phoenix,64,F
-U0981,Los Angeles,33,F
-U0982,New York,61,M
-U0983,Chicago,18,F
-U0984,Chicago,49,F
-U0985,Los Angeles,51,M
-U0986,New York,27,M
-U0987,Chicago,44,F
-U0988,New York,65,M
-U0989,New York,69,F
-U0990,Los Angeles,43,F
-U0991,Houston,34,F
-U0992,New York,51,M
-U0993,New York,37,M
-U0994,Chicago,48,M
-U0995,Chicago,54,F
-U0996,Houston,64,M
-U0997,Houston,37,F
-U0998,Chicago,43,M
-U0999,Phoenix,57,M
-U1000,Phoenix,27,F
+U0802,Chicago,20,F
+U0802,New York,22,M
+U0803,Los Angeles,52,F
+U0803,Phoenix,58,M
+U0804,Houston,48,F
+U0804,New York,37,F
+U0805,New York,18,F
+U0806,New York,38,M
+U0807,Chicago,50,F
+U0807,Phoenix,55,M
+U0808,New York,32,F
+U0809,Chicago,22,F
+U0810,Los Angeles,21,M
+U0811,New York,57,M
+U0811,Los Angeles,20,F
+U0812,Chicago,28,M
+U0812,Phoenix,22,F
+U0813,Houston,62,F
+U0814,Houston,19,M
+U0815,Phoenix,45,F
+U0815,New York,29,M
+U0816,New York,45,F
+U0816,Los Angeles,47,M
+U0817,Houston,48,F
+U0818,Phoenix,57,M
+U0819,Los Angeles,59,F
+U0820,Houston,55,M
+U0820,Los Angeles,62,F
+U0821,Houston,30,M
+U0821,Chicago,55,M
+U0822,New York,31,M
+U0822,Houston,25,M
+U0823,Los Angeles,48,M
+U0824,Phoenix,39,F
+U0824,New York,66,M
+U0825,Houston,43,F
+U0826,New York,21,M
+U0826,Phoenix,31,F
+U0827,Los Angeles,60,M
+U0828,Los Angeles,37,F
+U0828,Houston,52,F
+U0829,Los Angeles,34,M
+U0829,Chicago,60,F
+U0830,Phoenix,31,M
+U0831,New York,45,F
+U0831,Los Angeles,21,M
+U0832,Chicago,48,M
+U0832,Los Angeles,25,F
+U0833,Los Angeles,62,F
+U0834,New York,33,M
+U0834,Los Angeles,47,F
+U0835,Houston,46,M
+U0835,Chicago,51,M
+U0836,Houston,23,F
+U0836,Los Angeles,63,F
+U0837,New York,59,F
+U0837,Houston,32,F
+U0838,Houston,23,F
+U0838,Chicago,20,F
+U0839,Houston,34,M
+U0840,New York,23,M
+U0841,Phoenix,28,M
+U0841,Chicago,59,M
+U0842,New York,50,F
+U0843,Los Angeles,27,M
+U0844,New York,42,F
+U0845,Los Angeles,27,F
+U0845,New York,59,M
+U0846,Houston,58,M
+U0846,New York,31,M
+U0847,Houston,28,M
+U0847,New York,38,F
+U0848,Phoenix,19,F
+U0849,Chicago,28,F
+U0850,Houston,43,F
+U0851,Los Angeles,64,F
+U0851,Phoenix,59,F
+U0852,New York,19,F
+U0852,Los Angeles,44,M
+U0853,Chicago,60,M
+U0854,Chicago,22,F
+U0855,Chicago,64,F
+U0855,New York,54,F
+U0856,Houston,54,M
+U0857,New York,36,M
+U0858,Los Angeles,69,M
+U0858,Chicago,37,M
+U0859,New York,33,F
+U0859,Chicago,22,F
+U0860,New York,30,M
+U0860,Los Angeles,46,F
+U0861,New York,26,M
+U0861,Los Angeles,68,M
+U0862,Los Angeles,37,M
+U0862,New York,49,F
+U0863,Houston,28,M
+U0863,Phoenix,39,F
+U0864,Chicago,59,M
+U0864,New York,59,M
+U0865,New York,48,F
+U0866,Los Angeles,36,M
+U0867,New York,19,F
+U0868,Chicago,48,M
+U0868,Phoenix,41,M
+U0869,New York,64,F
+U0870,Houston,49,M
+U0870,Los Angeles,64,F
+U0871,New York,41,F
+U0872,New York,67,M
+U0872,Houston,28,M
+U0873,Phoenix,66,F
+U0874,Phoenix,47,F
+U0874,Chicago,55,F
+U0875,New York,50,M
+U0876,Chicago,54,F
+U0876,Phoenix,33,M
+U0877,Chicago,44,M
+U0877,Phoenix,33,F
+U0878,Houston,57,M
+U0878,Chicago,29,F
+U0879,Chicago,65,F
+U0880,Phoenix,53,F
+U0881,Houston,31,F
+U0881,New York,46,M
+U0882,Los Angeles,41,M
+U0882,Chicago,27,F
+U0883,New York,29,F
+U0883,Chicago,23,F
+U0884,Chicago,33,M
+U0885,Los Angeles,53,F
+U0885,Chicago,35,F
+U0886,Los Angeles,21,M
+U0887,Houston,31,F
+U0887,New York,29,F
+U0888,Houston,24,F
+U0889,Chicago,64,F
+U0889,Los Angeles,51,M
+U0890,New York,31,M
+U0891,Los Angeles,34,F
+U0892,Los Angeles,26,M
+U0893,Phoenix,62,M
+U0893,Houston,44,M
+U0894,Phoenix,28,M
+U0894,Los Angeles,64,F
+U0895,Houston,33,M
+U0895,Phoenix,37,F
+U0896,Houston,64,M
+U0897,Houston,46,F
+U0898,Los Angeles,44,F
+U0899,Los Angeles,21,M
+U0899,Chicago,36,F
+U0900,Los Angeles,39,F
+U0901,Chicago,36,F
+U0901,Houston,69,F
+U0902,New York,40,M
+U0902,Phoenix,30,F
+U0903,New York,56,M
+U0904,Phoenix,28,F
+U0904,New York,51,M
+U0905,Chicago,45,M
+U0906,Phoenix,24,M
+U0907,Chicago,43,F
+U0908,Los Angeles,54,F
+U0908,New York,41,F
+U0909,Chicago,69,F
+U0910,Los Angeles,63,F
+U0910,Phoenix,28,F
+U0911,Los Angeles,67,F
+U0911,Houston,60,M
+U0912,Chicago,36,M
+U0913,Houston,33,F
+U0913,Phoenix,47,F
+U0914,New York,42,M
+U0915,Phoenix,69,F
+U0915,New York,55,F
+U0916,Phoenix,34,F
+U0917,Chicago,24,F
+U0918,New York,50,M
+U0919,New York,34,F
+U0919,Chicago,60,F
+U0920,Phoenix,67,M
+U0920,Los Angeles,52,F
+U0921,New York,60,M
+U0922,Chicago,52,M
+U0922,Houston,48,F
+U0923,Phoenix,65,M
+U0924,New York,28,F
+U0925,New York,24,M
+U0925,Chicago,18,M
+U0926,Houston,23,F
+U0926,New York,61,F
+U0927,Phoenix,54,F
+U0927,Houston,59,M
+U0928,New York,44,M
+U0928,Chicago,26,F
+U0929,Los Angeles,60,F
+U0930,Phoenix,61,F
+U0931,New York,61,F
+U0931,Los Angeles,54,F
+U0932,New York,28,F
+U0933,Chicago,46,F
+U0934,New York,59,M
+U0934,Phoenix,38,M
+U0935,Los Angeles,66,M
+U0936,Houston,22,F
+U0936,Chicago,49,M
+U0937,Houston,24,M
+U0937,New York,64,M
+U0938,Phoenix,52,F
+U0939,Los Angeles,25,F
+U0939,Houston,37,M
+U0940,Los Angeles,25,M
+U0940,Houston,33,M
+U0941,Chicago,24,M
+U0942,Houston,66,M
+U0943,Phoenix,63,F
+U0943,Houston,66,M
+U0944,Chicago,43,F
+U0944,Los Angeles,65,F
+U0945,Los Angeles,23,M
+U0946,Houston,30,M
+U0947,New York,45,M
+U0947,Phoenix,44,F
+U0948,Chicago,63,M
+U0949,New York,41,F
+U0949,Phoenix,56,F
+U0950,Chicago,35,M
+U0951,Houston,67,M
+U0951,New York,29,M
+U0952,Phoenix,28,M
+U0953,New York,62,F
+U0954,Los Angeles,39,M
+U0954,Houston,36,F
+U0955,Los Angeles,36,F
+U0955,New York,69,M
+U0956,Chicago,51,M
+U0956,Houston,52,F
+U0957,New York,39,F
+U0957,Houston,45,F
+U0958,Phoenix,61,M
+U0959,Houston,58,M
+U0960,Los Angeles,60,M
+U0960,New York,49,F
+U0961,Houston,50,M
+U0962,Houston,68,M
+U0963,New York,65,F
+U0963,Houston,44,F
+U0964,Los Angeles,48,M
+U0965,Los Angeles,37,M
+U0965,Chicago,45,M
+U0966,Chicago,67,M
+U0966,Houston,23,M
+U0967,Chicago,28,F
+U0968,Los Angeles,50,F
+U0968,Houston,36,F
+U0969,Chicago,62,M
+U0969,Los Angeles,18,F
+U0970,Chicago,51,M
+U0971,Phoenix,36,M
+U0971,Houston,33,F
+U0972,Chicago,50,F
+U0973,New York,51,M
+U0973,Los Angeles,62,F
+U0974,Chicago,60,M
+U0975,Chicago,69,F
+U0976,Los Angeles,32,F
+U0976,Chicago,57,M
+U0977,Chicago,32,M
+U0978,Los Angeles,37,M
+U0979,Chicago,59,M
+U0979,Phoenix,27,M
+U0980,Phoenix,63,F
+U0981,Los Angeles,59,M
+U0982,Chicago,26,F
+U0982,Los Angeles,24,F
+U0983,New York,56,M
+U0983,Los Angeles,40,M
+U0984,Phoenix,48,M
+U0984,Houston,48,F
+U0985,Los Angeles,19,M
+U0985,Phoenix,30,F
+U0986,New York,20,F
+U0987,New York,22,M
+U0988,New York,64,F
+U0988,Los Angeles,33,F
+U0989,Los Angeles,61,M
+U0989,Phoenix,52,M
+U0990,Phoenix,24,F
+U0990,Houston,36,M
+U0991,New York,33,F
+U0992,Phoenix,30,M
+U0993,Chicago,41,F
+U0994,Houston,34,F
+U0995,Houston,51,F
+U0995,New York,20,M
+U0996,New York,65,M
+U0996,Houston,56,F
+U0997,Phoenix,24,M
+U0998,Houston,21,M
+U0999,Phoenix,24,M
+U1000,Phoenix,61,M

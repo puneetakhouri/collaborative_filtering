@@ -30,13 +30,13 @@ def generate_dataset():
 
     return users_df, products_df, orders_df, inventory_df, warehouse_areas_df
 
-def get_available_products(user_city, inventory_df, warehouse_areas_df):
-    # Get warehouses serving the user's city
-    serving_warehouses = warehouse_areas_df[warehouse_areas_df['city'] == user_city]['warehouse'].unique()
+def get_available_products(user_id, users_df, inventory_df, warehouse_areas_df):
+    # Get user's cities
+    user_cities = users_df[users_df['user_id'] == user_id]['city'].unique()
     
-    # Filter inventory for these warehouses and items with stock > 0
+    # Filter inventory for these cities and items with stock > 0
     available_inventory = inventory_df[
-        (inventory_df['warehouse'].isin(serving_warehouses)) & 
+        (inventory_df['city'].isin(user_cities)) & 
         (inventory_df['stock'] > 0)
     ]
     
@@ -153,7 +153,7 @@ def train_and_evaluate_model(dataset, interactions, user_features, item_features
 
     return model
 
-def get_home_page_recommendations(model, dataset, user_id, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=10):
+def get_home_page_recommendations(model, dataset, user_id, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=10):
     user_index = dataset.mapping()[0][user_id]
     n_items = item_features.shape[0]
     
@@ -167,7 +167,7 @@ def get_home_page_recommendations(model, dataset, user_id, user_features, item_f
     combined_scores = 0.7 * scores + 0.3 * item_popularity
 
      # Get available products
-    available_products = get_available_products(user_city, inventory_df, warehouse_areas_df)
+    available_products = get_available_products(user_id, users_df, inventory_df, warehouse_areas_df)
     
     # Create a dictionary to store recommendations by category
     category_recommendations = defaultdict(list)
@@ -197,7 +197,7 @@ def print_home_page_recommendations(recommendations):
         for i, (product_id, product_name, _, score) in enumerate(items, 1):
             print(f"{i}. {product_name} (ID: {product_id}, Score: {score:.4f})")
 
-def get_pdp_recommendations(model, dataset, user_id, product_id, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=5):
+def get_pdp_recommendations(model, dataset, user_id, product_id, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=5):
     user_index = dataset.mapping()[0][user_id]
     try:
         item_index = dataset.mapping()[2][product_id]
@@ -226,7 +226,7 @@ def get_pdp_recommendations(model, dataset, user_id, product_id, user_features, 
     top_items = [item for item in top_items if item[0] != item_index][:n]
     
     # Get available products
-    available_products = get_available_products(user_city, inventory_df, warehouse_areas_df)
+    available_products = get_available_products(user_id, users_df, inventory_df, warehouse_areas_df)
 
     recommendations = []
     for item_index, score in top_items:
@@ -241,7 +241,7 @@ def get_pdp_recommendations(model, dataset, user_id, product_id, user_features, 
     
     return recommendations
 
-def get_cart_recommendations(model, dataset, user_id, cart_product_ids, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=5):
+def get_cart_recommendations(model, dataset, user_id, cart_product_ids, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city, n=5):
 
     user_index = dataset.mapping()[0][user_id]
     n_items = item_features.shape[0]
@@ -281,7 +281,7 @@ def get_cart_recommendations(model, dataset, user_id, cart_product_ids, user_fea
     top_items = [item for item in top_items if item[0] not in cart_item_indices][:n]
     
     # Get available products
-    available_products = get_available_products(user_city, inventory_df, warehouse_areas_df)
+    available_products = get_available_products(user_id, users_df, inventory_df, warehouse_areas_df)
 
     recommendations = []
     for item_index, score in top_items:
@@ -315,7 +315,7 @@ def main():
 
     # Home page recommendations
     print(f"\nTop 10 home page recommendations for user {sample_user_id}:")
-    home_recommendations = get_home_page_recommendations(model, dataset, sample_user_id, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
+    home_recommendations = get_home_page_recommendations(model, dataset, sample_user_id, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
     print_home_page_recommendations(home_recommendations)
     #for i, (product_id, product_name, category, score) in enumerate(home_recommendations, 1):
     #    print(f"{i}. {product_name} (ID: {product_id}, Category: {category}, Score: {score:.4f})")
@@ -323,7 +323,7 @@ def main():
     # PDP recommendations
     sample_product_id = products_df['product_id'].iloc[0]  # Just using the first product as an example
     print(f"\nTop 5 product detail page recommendations for user {sample_user_id} viewing product {sample_product_id}:")
-    pdp_recommendations = get_pdp_recommendations(model, dataset, sample_user_id, sample_product_id, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
+    pdp_recommendations = get_pdp_recommendations(model, dataset, sample_user_id, sample_product_id, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
     if pdp_recommendations:
         for i, (product_id, product_name, category, score) in enumerate(pdp_recommendations, 1):
             print(f"{i}. {product_name} (ID: {product_id}, Category: {category}, Score: {score:.4f})")
@@ -333,7 +333,7 @@ def main():
     # Cart recommendations
     sample_cart = [products_df['product_id'].iloc[i] for i in range(3)]  # Just using the first 3 products as an example cart
     print(f"\nTop 5 cart recommendations for user {sample_user_id} with cart containing {sample_cart}:")
-    cart_recommendations = get_cart_recommendations(model, dataset, sample_user_id, sample_cart, user_features, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
+    cart_recommendations = get_cart_recommendations(model, dataset, sample_user_id, sample_cart, user_features, users_df, item_features, products_df, inventory_df, warehouse_areas_df, user_city)
     if cart_recommendations:
         for i, (product_id, product_name, category, score) in enumerate(cart_recommendations, 1):
             print(f"{i}. {product_name} (ID: {product_id}, Category: {category}, Score: {score:.4f})")

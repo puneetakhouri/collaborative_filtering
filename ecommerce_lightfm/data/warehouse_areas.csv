@@ -1,7 +1,9 @@
 warehouse,city
-WH1,New York
-WH1,Chicago
+WH1,Houston
+WH1,Phoenix
+WH2,Houston
 WH2,Los Angeles
-WH2,Phoenix
-WH3,Houston
-WH3,Chicago
+WH2,Chicago
+WH3,Los Angeles
+WH4,Phoenix
+WH4,Houston
