@@ -60,7 +60,7 @@ def run_recommendation_engine(ratings_file, userId):
 # Example usage
 if __name__ == "__main__":
     ratings_file = "../data/user_ratings.csv"
-    userId = "21983"
+    userId = "774114"
     recommendations = run_recommendation_engine(ratings_file, userId)
     print(f"Top 10 recommendations for user {userId}:")
     for i, product in enumerate(recommendations, 1):

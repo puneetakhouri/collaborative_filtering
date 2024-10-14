@@ -50,8 +50,8 @@ def preprocess_data(df, categorical_features, numeric_features):
                 df_encoded[col] = pd.to_numeric(df_encoded[col], errors='coerce').fillna(0)
 
         logging.info(f"Data preprocessing complete. Shape: {df_encoded.shape}")
-        logging.info(f"Columns after preprocessing: {df_encoded.columns}")
-        logging.info(f"Data types after preprocessing: {df_encoded.dtypes}")
+        #logging.info(f"Columns after preprocessing: {df_encoded.columns}")
+        #logging.info(f"Data types after preprocessing: {df_encoded.dtypes}")
         return df_encoded
     except Exception as e:
         logging.error(f"Error preprocessing data: {e}")
