@@ -5,6 +5,7 @@ from lightfm import LightFM
 from lightfm.data import Dataset
 from lightfm.evaluation import precision_at_k, auc_score
 from sklearn.model_selection import train_test_split
+from collections import defaultdict
 import scipy.sparse as sp
 
 # Set random seed for reproducibility
@@ -146,17 +147,30 @@ def get_home_page_recommendations(model, dataset, user_id, user_features, item_f
     # Combine personalized scores with popularity (you can adjust the weights)
     combined_scores = 0.7 * scores + 0.3 * item_popularity
     
-    # Sort and get top N recommendations
-    top_items = sorted(enumerate(combined_scores), key=lambda x: x[1], reverse=True)[:n]
+    # Create a dictionary to store recommendations by category
+    category_recommendations = defaultdict(list)
     
-    recommendations = []
-    for item_index, score in top_items:
+    # Sort items by score and group by category
+    sorted_items = sorted(enumerate(combined_scores), key=lambda x: x[1], reverse=True)
+    for item_index, score in sorted_items:
         product_id = products_df.iloc[item_index]['product_id']
         product_name = products_df.iloc[item_index]['name']
         category = products_df.iloc[item_index]['category']
-        recommendations.append((product_id, product_name, category, score))
+        
+        if len(category_recommendations[category]) < n:
+            category_recommendations[category].append((product_id, product_name, category, score))
+        
+        # If we have n recommendations for each category, we can stop
+        if all(len(recs) == n for recs in category_recommendations.values()):
+            break
     
-    return recommendations
+    return category_recommendations
+
+def print_home_page_recommendations(recommendations):
+    for category, items in recommendations.items():
+        print(f"\nTop 10 recommendations for {category}:")
+        for i, (product_id, product_name, _, score) in enumerate(items, 1):
+            print(f"{i}. {product_name} (ID: {product_id}, Score: {score:.4f})")
 
 def get_pdp_recommendations(model, dataset, user_id, product_id, user_features, item_features, products_df, n=5):
     user_index = dataset.mapping()[0][user_id]
@@ -263,8 +277,9 @@ def main():
     # Home page recommendations
     print(f"\nTop 10 home page recommendations for user {sample_user_id}:")
     home_recommendations = get_home_page_recommendations(model, dataset, sample_user_id, user_features, item_features, products_df)
-    for i, (product_id, product_name, category, score) in enumerate(home_recommendations, 1):
-        print(f"{i}. {product_name} (ID: {product_id}, Category: {category}, Score: {score:.4f})")
+    print_home_page_recommendations(home_recommendations)
+    #for i, (product_id, product_name, category, score) in enumerate(home_recommendations, 1):
+    #    print(f"{i}. {product_name} (ID: {product_id}, Category: {category}, Score: {score:.4f})")
 
     # PDP recommendations
     sample_product_id = products_df['product_id'].iloc[0]  # Just using the first product as an example
