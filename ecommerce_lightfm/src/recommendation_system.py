@@ -7,6 +7,8 @@ from lightfm.evaluation import precision_at_k, auc_score
 from sklearn.model_selection import train_test_split
 from collections import defaultdict
 import scipy.sparse as sp
+import os
+import joblib
 
 # Set random seed for reproducibility
 np.random.seed(42)
@@ -295,18 +297,65 @@ def get_cart_recommendations(model, dataset, user_id, cart_product_ids, user_fea
     
     return recommendations
 
-def main():
+def save_model(model, dataset, user_features, item_features, path="../data/models/lightfm/"):
+    """Save the trained model and associated data to local storage."""
+    os.makedirs(path, exist_ok=True)
+    joblib.dump(model, os.path.join(path, "lightfm_model.joblib"))
+    joblib.dump(dataset, os.path.join(path, "dataset.joblib"))
+    joblib.dump(user_features, os.path.join(path, "user_features.joblib"))
+    joblib.dump(item_features, os.path.join(path, "item_features.joblib"))
+    print(f"Model and associated data saved to {path}")
+
+def load_model(path="../data/models/lightfm/"):
+    """Load the trained model and associated data from local storage."""
+    model_path = os.path.join(path, "lightfm_model.joblib")
+    if not os.path.exists(model_path):
+        print(f"Model not found at {model_path}")
+        return None, None, None, None
+    
+    model = joblib.load(model_path)
+    dataset = joblib.load(os.path.join(path, "dataset.joblib"))
+    user_features = joblib.load(os.path.join(path, "user_features.joblib"))
+    item_features = joblib.load(os.path.join(path, "item_features.joblib"))
+    print(f"Model and associated data loaded from {path}")
+    return model, dataset, user_features, item_features
+
+def train_and_save_model(users_df, products_df, orders_df):
+    """Train the model and save it."""
+    print("Preparing data for LightFM...")
+    dataset, interactions, weights, user_features, item_features = prepare_data_for_lightfm(users_df, products_df, orders_df)
+
+    print("Training and evaluating the model...")
+    model = train_and_evaluate_model(dataset, interactions, user_features, item_features)
+
+    print("Saving the model...")
+    save_model(model, dataset, user_features, item_features)
+
+    return model, dataset, user_features, item_features
+
+def main(train_model=False):
     # Generate dataset
     print("Generating dataset...")
     users_df, products_df, orders_df, inventory_df, warehouse_areas_df = generate_dataset()
 
     # Prepare data for LightFM
-    print("Preparing data for LightFM...")
-    dataset, interactions, weights, user_features, item_features = prepare_data_for_lightfm(users_df, products_df, orders_df)
+    #print("Preparing data for LightFM...")
+    #dataset, interactions, weights, user_features, item_features = prepare_data_for_lightfm(users_df, products_df, orders_df)
 
     # Train and evaluate the model
-    print("Training and evaluating the model...")
-    model = train_and_evaluate_model(dataset, interactions, user_features, item_features)
+    #print("Training and evaluating the model...")
+    #model = train_and_evaluate_model(dataset, interactions, user_features, item_features)
+
+    if train_model:
+        model, dataset, user_features, item_features = train_and_save_model(users_df, products_df, orders_df)
+    else:
+        # Try to load the model
+        model, dataset, user_features, item_features = load_model()
+        
+        # If model is not found, train and save it
+        if model is None:
+            print("Model not found. Training a new model...")
+            model, dataset, user_features, item_features = train_and_save_model(users_df, products_df, orders_df)
 
     # Generate recommendations for a sample user
     print("\nGenerating recommendations for a sample user...")
